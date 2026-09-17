@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Computer Science PhD researcher at UT Arlington working on Agentic AI, NLP, Large Language Models, trustworthy AI, and efficient LLM systems. ICML 2025 Spotlight co-author, EACL 2026 Findings first author, and former IQVIA ML Engineer with 3+ years of industry experience. Seeking 2027 research and applied AI internships." />
+        <meta name="description" content="PhD researcher at UT Arlington working on NLP, Large Language Models, trustworthy AI, agentic systems, and efficient LLM inference. ICML 2025 Spotlight co-author and EACL 2026 Findings first author. Seeking research internships in NLP/LLMs and LLM systems." />
         <meta name="author" content="Md Hasebul Hasan Shawon" />
         <title>Md Hasebul Hasan Shawon | NLP & LLM Researcher</title>
         <link rel="icon" type="image/x-icon" href="assets/img/ai.png" />
@@ -30,12 +30,12 @@
             body { color: var(--ink); background: #ffffff; }
             a { text-decoration-thickness: .08em; text-underline-offset: .16em; }
             .resume-section { min-height: auto !important; }
-            .resume-section-content { width: 100%; max-width: 1320px !important; margin: 0 auto; }
+            .resume-section-content { width: 100%; max-width: 1480px !important; margin: 0 auto; }
             .section-kicker { font-size: .78rem; text-transform: uppercase; letter-spacing: .16em; font-weight: 800; color: var(--accent); }
             .section-title { font-size: clamp(2rem, 3vw, 3.25rem); color: var(--ink) !important; margin-bottom: .75rem; }
             .section-lead { color: var(--muted); max-width: 900px; }
-            .surface-card { background: #fff; border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 10px 30px rgba(20, 50, 80, .06); transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
-            .surface-card:hover { transform: translateY(-2px); box-shadow: 0 14px 36px rgba(20, 50, 80, .10); border-color:#c8dbea; }
+            .surface-card { background: #fff; border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 10px 30px rgba(20, 50, 80, .06); }
+            .surface-card:hover { transform: translateY(-2px); box-shadow: 0 14px 36px rgba(20, 50, 80, .10); transition: .2s ease; }
             .hero-wrap { position: relative; overflow: hidden; border-radius: 28px; background: linear-gradient(135deg, #f4f9ff 0%, #ffffff 56%, #eefbfb 100%); border: 1px solid var(--line); padding: clamp(2rem, 4vw, 4.5rem); }
             .hero-wrap:after { content: ''; position: absolute; width: 340px; height: 340px; border-radius: 50%; right: -120px; top: -130px; background: radial-gradient(circle, rgba(0,100,177,.15), rgba(0,100,177,0)); pointer-events: none; }
             .hero-name { font-size: clamp(3rem, 6vw, 5.6rem); line-height: .92; color: var(--ink); letter-spacing: -.035em; }
@@ -69,64 +69,9 @@
             .btn-soft:hover { background:#e7f2fb; color:#0d2744; }
             .btn-ghost-light { color:#fff; border:1px solid rgba(255,255,255,.38); font-weight:800; }
             .btn-ghost-light:hover { background:rgba(255,255,255,.10); color:#fff; }
-            .cv-choice-grid { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:1rem; margin-top:1.4rem; }
-            .cv-choice-card { border:1px solid rgba(255,255,255,.22); background:rgba(255,255,255,.07); border-radius:16px; padding:1.15rem; color:#fff; transition:.18s ease; }
-            .cv-choice-card.active { background:#fff; color:#0d2744; border-color:#fff; box-shadow:0 12px 30px rgba(0,0,0,.16); }
-            .cv-choice-card h3 { color:inherit !important; font-size:1.2rem; margin-bottom:.45rem; }
-            .cv-choice-card p { color:#c9d9e7; font-size:.9rem; line-height:1.55; margin-bottom:.8rem; }
-            .cv-choice-card.active p { color:#52677a; }
-            .cv-choice-label { display:inline-flex; align-items:center; gap:.4rem; font-size:.72rem; font-weight:800; text-transform:uppercase; letter-spacing:.08em; color:#7bd3e0; margin-bottom:.55rem; }
-            .cv-choice-card.active .cv-choice-label { color:#087f8c; }
-            .cv-choice-actions { display:flex; flex-wrap:wrap; gap:.5rem; }
-            .cv-choice-card .btn-preview { border:1px solid rgba(255,255,255,.4); color:#fff; font-weight:800; }
-            .cv-choice-card .btn-preview:hover { background:rgba(255,255,255,.10); color:#fff; }
-            .cv-choice-card.active .btn-preview { background:#0d2744; border-color:#0d2744; color:#fff; }
-            .cv-choice-card .cv-link { color:#fff; font-weight:800; font-size:.84rem; }
-            .cv-choice-card.active .cv-link { color:#0064b1; }
-            .cv-preview-heading { display:flex; align-items:center; justify-content:space-between; gap:1rem; margin-top:1.25rem; color:#d7e7f4; font-size:.9rem; }
-            .cv-preview-heading strong { color:#fff; }
-            .cv-context-strip { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.75rem; margin-top:1.2rem; }
-            .cv-context-item { background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.13); border-radius:12px; padding:.85rem 1rem; }
-            .cv-context-item b { display:block; color:#fff; font-size:.9rem; margin-bottom:.15rem; }
-            .cv-context-item span { color:#bcd2e7; font-size:.8rem; line-height:1.4; display:block; }
-            *, *::before, *::after { box-sizing: border-box; }
-            .section-head { margin-bottom: 2rem; }
-            .section-head .section-title { margin-bottom: .55rem; }
-            .section-head .section-lead { margin-bottom: 0; }
-            .experience-card { padding: clamp(1.25rem, 2vw, 1.8rem); }
-            .experience-logo { width:58px; height:58px; object-fit:contain; flex:0 0 auto; }
-            .experience-top { display:flex; align-items:flex-start; justify-content:space-between; gap:1.25rem; margin-bottom:1rem; }
-            .experience-identity { display:flex; align-items:center; gap:1rem; min-width:0; }
-            .experience-date { flex:0 0 auto; }
-            .experience-card ul { margin-bottom:0; padding-left:1.25rem; }
-            .experience-card li + li { margin-top:.45rem; }
-            .teaching-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; margin-top:1rem; }
-            .detail-card { padding:1.35rem; }
-            .detail-card h3 { color:var(--ink) !important; font-size:1.15rem; margin-bottom:.9rem; }
-            .detail-card ul { margin-bottom:0; padding-left:1.15rem; }
-            .detail-card li + li { margin-top:.35rem; }
-            .award-note { background:#f4f9fd; border:1px solid var(--line); border-radius:16px; padding:1rem 1.15rem; color:#40556b; margin-bottom:1.15rem; }
-            .award-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
-            .award-card { padding:1.25rem; display:flex; flex-direction:column; min-height:185px; }
-            .award-icon { width:42px; height:42px; display:inline-flex; align-items:center; justify-content:center; border-radius:12px; background:#eef5fb; color:var(--accent); margin-bottom:.9rem; }
-            .award-card h3 { color:var(--ink) !important; font-size:1.12rem; line-height:1.25; margin-bottom:.45rem; }
-            .award-type { text-transform:uppercase; letter-spacing:.09em; font-size:.7rem; font-weight:800; color:var(--accent); margin-bottom:.35rem; }
-            .award-card p { color:var(--muted); font-size:.9rem; line-height:1.5; margin-bottom:.8rem; }
-            .award-card .date-pill { margin-top:auto; align-self:flex-start; }
-            .skills-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
-            .skill-card { padding:1.25rem; }
-            .skill-card h3 { color:var(--ink) !important; font-size:1.08rem; margin-bottom:.55rem; }
-            .skill-card p { color:#4d6175; margin-bottom:0; line-height:1.6; }
-            #projects .resume-section-content > .d-flex { background:#fff; border:1px solid var(--line); border-radius:16px; padding:1.25rem 1.35rem; margin-bottom:1rem !important; box-shadow:0 8px 24px rgba(20,50,80,.045); gap:1rem; }
-            #projects .resume-section-content > .d-flex h3 { font-size:1.18rem; line-height:1.3; margin-bottom:.55rem !important; }
-            #projects .resume-section-content > .d-flex ul { margin-bottom:0; padding-left:1.2rem; }
-            #projects .resume-section-content > .d-flex .flex-shrink-0 { padding-top:.1rem; white-space:nowrap; }
-            .activity-card { padding:1.3rem; }
-            .activity-card ul { margin-bottom:0; }
-            .container-fluid > hr { border-color:#e7eef5; opacity:1; }
-            #education, #publications, #cv, #work, #teaching, #awards, #skills, #projects, #activities { padding-top: clamp(3.75rem, 5vw, 5.5rem) !important; padding-bottom: clamp(3.75rem, 5vw, 5.5rem) !important; }
+            #education, #publications, #cv, #work, #teaching, #awards, #skills, #projects, #activities { padding-top: 5.5rem !important; padding-bottom: 5.5rem !important; }
             #education, #cv, #skills { background: var(--soft); }
-            @media (min-width: 1200px) {
+            @media (min-width: 992px) {
                 body { padding-top: 78px !important; padding-left: 0 !important; }
                 #sideNav { width:100% !important; height:78px !important; min-height:78px !important; top:0; left:0; right:0; bottom:auto !important; flex-direction:row !important; padding:.65rem 4vw !important; background:var(--nav) !important; backdrop-filter: blur(12px); box-shadow:0 6px 24px rgba(0,0,0,.12); }
                 #sideNav .navbar-brand { margin:0 1.2rem 0 0 !important; padding:0 !important; }
@@ -134,71 +79,31 @@
                 #sideNav .navbar-brand .d-lg-none { display:block !important; font-weight:800; font-size:1.05rem; white-space:nowrap; }
                 #sideNav .navbar-collapse { display:flex !important; align-items:center; flex-basis:auto; }
                 #sideNav .navbar-nav { flex-direction:row !important; gap:.2rem; flex-wrap:wrap; justify-content:flex-end; width:100%; }
-                #sideNav .nav-link { padding:.48rem .52rem !important; font-size:.76rem; letter-spacing:.015em; white-space:nowrap; }
+                #sideNav .nav-link { padding:.48rem .62rem !important; font-size:.78rem; letter-spacing:.02em; }
                 .resume-section { padding: 6rem 4vw !important; }
                 #about { padding-top:4.5rem !important; }
             }
-            @media (min-width: 1200px) and (max-width: 1399.98px) {
-                #sideNav { padding-left:2.2vw !important; padding-right:2.2vw !important; }
-                #sideNav .navbar-brand .d-lg-none { font-size:.96rem; }
-                #sideNav .nav-link { padding-left:.42rem !important; padding-right:.42rem !important; font-size:.72rem; }
-            }
-            @media (max-width: 1199.98px) {
-                body { padding-top: 64px !important; padding-left: 0 !important; }
-                #sideNav { width:100% !important; height:auto !important; min-height:64px !important; top:0; left:0; right:0; bottom:auto !important; padding:.65rem 1.25rem !important; background:var(--nav) !important; box-shadow:0 6px 24px rgba(0,0,0,.12); }
-                #sideNav .navbar-brand { margin:0 !important; padding:0 !important; }
-                #sideNav .navbar-brand .d-lg-block { display:none !important; }
-                #sideNav .navbar-brand .d-lg-none { display:block !important; font-weight:800; font-size:1rem; white-space:nowrap; }
-                #sideNav .navbar-collapse { width:100%; }
-                #sideNav .navbar-nav { padding-top:.65rem; padding-bottom:.35rem; }
-                #sideNav .nav-link { padding:.5rem .25rem !important; font-size:.84rem; }
-                .resume-section { padding: 4.75rem 3vw !important; }
-                .pub-grid, .edu-grid, .award-grid { grid-template-columns:1fr 1fr; }
-                .hero-wrap { padding: clamp(2rem, 4vw, 3.4rem); }
+            @media (max-width: 1100px) {
+                .pub-grid { grid-template-columns: 1fr 1fr; }
+                .edu-grid { grid-template-columns: 1fr 1fr; }
             }
             @media (max-width: 991.98px) {
                 body { padding-top: 54px !important; }
                 .resume-section { padding:4rem 1.25rem !important; }
                 .hero-wrap { border-radius:20px; padding:2rem 1.35rem; }
-                .edu-grid, .pub-grid, .current-grid, .award-grid, .skills-grid, .teaching-grid { grid-template-columns:1fr; }
+                .edu-grid, .pub-grid, .current-grid { grid-template-columns:1fr; }
                 .metric-grid { grid-template-columns:1fr 1fr; }
-                .cv-choice-grid, .cv-context-strip { grid-template-columns:1fr; }
-                .cv-viewer iframe { min-height:600px; height:76vh; }
-                .experience-top { flex-direction:column; gap:.8rem; }
-                .experience-date { align-self:flex-start; }
-                #projects .resume-section-content > .d-flex { padding:1.15rem; }
-                #projects .resume-section-content > .d-flex .flex-shrink-0 { align-self:flex-start; }
-                .section-head { margin-bottom:1.5rem; }
-            }
-            .cv-mobile-note { display:none; }
-            @media (max-width: 680px) {
-                .cv-viewer iframe { display:none; }
-                .cv-mobile-note { display:block; background:#fff; color:#40556b; border-radius:12px; padding:1rem; text-align:center; }
+                .cv-viewer iframe { min-height:640px; height:76vh; }
             }
             @media (max-width: 520px) {
-                body { padding-top:60px !important; }
-                #sideNav { min-height:60px !important; padding:.55rem .9rem !important; }
-                #sideNav .navbar-brand .d-lg-none { font-size:.9rem; max-width:240px; overflow:hidden; text-overflow:ellipsis; }
-                .resume-section { padding:3.25rem .95rem !important; }
-                .hero-wrap { padding:1.45rem 1.05rem; border-radius:16px; }
-                .hero-name { font-size:2.55rem; line-height:.96; }
-                .hero-role { font-size:1.05rem; }
-                .hero-copy { font-size:.98rem; line-height:1.65; }
                 .metric-grid { grid-template-columns:1fr; }
-                .metric-card { min-height:auto; }
-                .section-title { font-size:2rem; }
-                .surface-card, .experience-card, .award-card, .skill-card, .detail-card { border-radius:14px; }
-                .cv-shell { padding:1.05rem; border-radius:18px; }
-                .cv-viewer { padding:.55rem; }
-                .cv-viewer iframe { min-height:520px; height:70vh; }
-                .cv-choice-actions { align-items:flex-start; }
-                .tag-chip { font-size:.78rem; padding:.42rem .68rem; }
+                .hero-name { font-size:2.75rem; }
             }
         </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top" id="sideNav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Md Hasebul Hasan Shawon</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/hasebul.jpg" alt="..." /></span>
@@ -226,35 +131,35 @@
                 <div class="resume-section-content">
                     <div class="hero-wrap">
                         <div class="row g-5 align-items-center position-relative" style="z-index:1;">
-                            <div class="col-xl-8">
-                                <div class="section-kicker mb-3">PhD Researcher &middot; Agentic AI &middot; NLP / LLMs &middot; ML Systems</div>
+                            <div class="col-lg-8">
+                                <div class="section-kicker mb-3">NLP / LLM Researcher & ML Engineer</div>
                                 <h1 class="hero-name mb-3">Md Hasebul Hasan <span class="text-primary">Shawon</span></h1>
                                 <div class="hero-role mb-3">PhD Researcher at UT Arlington · Large Language Models · Human-AI Interaction · LLM Systems</div>
                                 <div class="text-muted mb-4">Arlington, TX · <a href="mailto:mdhasebul.hasan@uta.edu">mdhasebul.hasan@uta.edu</a></div>
                                 <p class="hero-copy mb-4">
-                                    I am a Computer Science PhD student and Graduate Research Assistant at
+                                    I am a PhD student and Graduate Research Assistant in Computer Science and Engineering at
                                     <a href="https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse">The University of Texas at Arlington</a>, advised by <b>Dr. Mohammad Atiqul Islam</b>.
-                                    I work at the intersection of <b>Agentic AI, NLP, large language models, trustworthy AI, and efficient LLM systems</b>. Before my PhD, I spent more than three years as a Machine Learning Engineer at <b>IQVIA</b>, building production ML and LLM systems. My work spans top-tier research, including an <b>ICML Spotlight</b> and a <b>first-author EACL Findings paper</b>, as well as deployed AI systems whose insights contributed to a <b>15% increase in market sales</b>.
+                                    My research focuses on <b>NLP and large language models</b>, especially trustworthy evaluation, human-centered AI, agentic reasoning, and efficient LLM systems. Before my PhD, I spent more than three years building production ML and LLM systems at <b>IQVIA</b>.
                                 </p>
                                 <div class="tag-row mb-4">
-                                    <span class="tag-chip">Agentic AI</span>
                                     <span class="tag-chip">Natural Language Processing</span>
                                     <span class="tag-chip">Large Language Models</span>
-                                    <span class="tag-chip">LLM Systems &amp; Architecture</span>
-                                    <span class="tag-chip">Trustworthy AI</span>
+                                    <span class="tag-chip">LLM Systems & Architecture</span>
                                     <span class="tag-chip">Human-AI Interaction</span>
+                                    <span class="tag-chip">Agentic AI</span>
                                     <span class="tag-chip">Efficient Inference</span>
                                 </div>
                                 <div class="d-flex flex-wrap gap-2">
                                     <a class="btn btn-primary px-4 py-2 js-scroll-trigger" href="#cv"><i class="fas fa-file-alt me-2"></i>View CV</a>
+                                    <a class="btn btn-outline-primary px-4 py-2" href="Md_Hasebul_Hasan_CV.pdf" target="_blank" rel="noopener"><i class="fas fa-external-link-alt me-2"></i>Open PDF</a>
                                     <a class="btn btn-outline-dark px-4 py-2" href="https://scholar.google.com/citations?user=f8HAI_MAAAAJ&hl=en" target="_blank" rel="noopener"><i class="ai ai-google-scholar me-2"></i>Scholar</a>
                                 </div>
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-lg-4">
                                 <div class="internship-box mb-3">
                                     <div class="small text-uppercase fw-bold mb-2" style="letter-spacing:.11em;">Open to 2027 Research Internships</div>
                                     <div class="fs-5 fw-bold mb-2">NLP · LLMs · LLM Systems / Architecture</div>
-                                    <div class="small">Targeting research and applied AI roles involving agentic systems, trustworthy LLMs, reasoning and evaluation, inference efficiency, model optimization, and human-centered AI.</div>
+                                    <div class="small">Interested in research roles involving trustworthy LLMs, reasoning and evaluation, agents, inference efficiency, model optimization, and human-centered AI.</div>
                                 </div>
                                 <div class="metric-grid">
                                     <div class="metric-card"><div class="metric-value">ICML 2025</div><div class="metric-label">Spotlight · Top 2.6%</div></div>
@@ -354,32 +259,18 @@
                 <div class="resume-section-content">
                     <div class="cv-shell">
                         <div class="row g-4 align-items-center">
-                            <div class="col-xl-8">
-                                <div class="section-kicker mb-2" style="color:#7bd3e0;">Curriculum Vitae</div>
-                                <h2 class="section-title mb-2">My CV</h2>
-                                <!-- <p class="mb-0">A concise two-page CV highlighting my PhD research, ICML Spotlight and EACL publications, Agentic AI / NLP / LLM work, and 3+ years of machine learning engineering experience at IQVIA.</p> -->
+                            <div class="col-lg-8">
+                                <div class="section-kicker mb-2" style="color:#7bd3e0;">Recruiter-ready profile</div>
+                                <h2 class="section-title mb-2">Curriculum Vitae</h2>
+                                <p class="mb-0">A cleaner, redesigned CV highlighting NLP/LLM research, peer-reviewed publications, production ML experience, teaching, technical skills, and awards.</p>
                             </div>
-                            <div class="col-xl-4 text-xl-end">
-                                <div class="d-flex flex-wrap gap-2 justify-content-xl-end">
-                                    <a class="btn btn-soft" href="Md_Hasebul_Hasan_CV.pdf" target="_blank" rel="noopener"><i class="fas fa-external-link-alt me-2"></i>Open CV</a>
-                                    <a class="btn btn-soft" href="Md_Hasebul_Hasan_CV.pdf" download><i class="fas fa-download me-2"></i>Download CV</a>
-                                </div>
+                            <div class="col-lg-4 text-lg-end">
+                                <a class="btn btn-soft me-2 mb-2" href="Md_Hasebul_Hasan_CV.pdf" target="_blank" rel="noopener"><i class="fas fa-external-link-alt me-2"></i>Open full screen</a>
+                                <a class="btn btn-ghost-light mb-2" href="Md_Hasebul_Hasan_CV.pdf" download><i class="fas fa-download me-2"></i>Download PDF</a>
                             </div>
-                        </div>
-
-                        <div class="cv-context-strip">
-                            <div class="cv-context-item"><b>Research</b><span>ICML 2025 Spotlight (Top 2.6%) and EACL 2026 Findings first author.</span></div>
-                            <div class="cv-context-item"><b>Industry</b><span>3+ years at IQVIA building production ML and LLM systems.</span></div>
-                            <div class="cv-context-item"><b>Focus</b><span>Agentic AI, NLP/LLMs, trustworthy AI, and efficient LLM systems.</span></div>
-                        </div>
-
-                        <div class="cv-preview-heading">
-                            <span><strong>2-page CV preview</strong></span>
-                            <span class="d-none d-md-inline">Use Open CV for a full-window view.</span>
                         </div>
                         <div class="cv-viewer">
-                            <div class="cv-mobile-note">For the best mobile experience, use <b>Open CV</b> above to view the document in your phone's PDF viewer.</div>
-                            <iframe id="cvPreviewFrame" src="Md_Hasebul_Hasan_CV.pdf#view=FitH&amp;toolbar=1&amp;navpanes=0" title="Md Hasebul Hasan CV">
+                            <iframe src="Md_Hasebul_Hasan_CV.pdf#view=FitH&toolbar=1&navpanes=0" title="Md Hasebul Hasan CV">
                                 Your browser cannot display the embedded PDF. <a href="Md_Hasebul_Hasan_CV.pdf" target="_blank" rel="noopener">Open the CV in a new tab</a>.
                             </iframe>
                         </div>
@@ -425,136 +316,89 @@
             <!-- Work Experience-->
             <section class="resume-section" id="work">
                 <div class="resume-section-content">
-                    <div class="section-head">
-                        <div class="section-kicker mb-2">Production AI &amp; ML</div>
-                        <h2 class="section-title">Industry Experience</h2>
-                        <p class="section-lead">Building and deploying machine learning and LLM systems in production environments.</p>
-                    </div>
-                    <article class="surface-card experience-card">
-                        <div class="experience-top">
-                            <div class="experience-identity">
-                                <a href="https://www.iqvia.com/"><img class="experience-logo" src="assets/img/iqvia.jpeg" alt="IQVIA" /></a>
-                                <div>
-                                    <h3 class="mb-1" style="color:var(--ink);">IQVIA</h3>
-                                    <div class="fw-bold">Machine Learning Engineer · Dhaka</div>
+                    <h2 class="mb-5" style="color: #003f88;">Industry Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div class="flex-grow-1">
+                            <div class="d-flex align-items-center mb-3">
+                                <a href="https://www.iqvia.com/"><img src="assets/img/iqvia.jpeg" alt="IQVIA" width="70" height="70" /></a>
+                                <div class="ms-3">
+                                    <h3 class="mb-0" style="color: #003f88;">IQVIA</h3>
+                                    <div class="subheading">Machine Learning Engineer · Dhaka</div>
                                 </div>
                             </div>
-                            <span class="date-pill experience-date">May 2022 - Jul 2025</span>
+                            <ul>
+                                <li>Developed and deployed an LLM-powered pharmaceutical market analysis system using <b>LangChain and RAG</b>, reducing hallucinations and generating insights associated with a <b>15% increase in market sales</b>.</li>
+                                <li>Built an end-to-end time-series forecasting pipeline using <b>Snowflake, PyTorch, and TensorFlow</b>, improving forecast accuracy by <b>10%</b> and reducing model training time by <b>20%</b>.</li>
+                                <li>Collaborated with cross-functional teams to deploy production ML systems.</li>
+                                <li>Received IQVIA <b>Platinum Award (2024)</b> and <b>Silver Award (2025)</b> for AI-driven pharmaceutical analytics.</li>
+                            </ul>
                         </div>
-                        <ul>
-                            <li>Developed and deployed an LLM-powered pharmaceutical market analysis system using <b>LangChain and RAG</b>, reducing hallucinations and generating insights associated with a <b>15% increase in market sales</b>.</li>
-                            <li>Built an end-to-end time-series forecasting pipeline using <b>Snowflake, PyTorch, and TensorFlow</b>, improving forecast accuracy by <b>10%</b> and reducing model training time by <b>20%</b>.</li>
-                            <li>Collaborated with cross-functional teams to deploy production ML systems.</li>
-                            <li>Recognized with <b>Platinum (2024)</b> and <b>Silver (2025)</b> awards in the IQVIA Impact Program for exceptional performance, process improvement, and technical innovation.</li>
-                        </ul>
-                    </article>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2022 – Jul 2025</span></div>
+                    </div>
                 </div>
             </section>
 
             <hr class="m-0" />
 
             <!-- Teaching Experience -->
-            <section class="resume-section" id="teaching">
-                <div class="resume-section-content">
-                    <div class="section-head">
-                        <div class="section-kicker mb-2">Teaching &amp; mentorship</div>
-                        <h2 class="section-title">Teaching Experience</h2>
-                        <p class="section-lead">Undergraduate instruction, project supervision, and student mentoring in computer science.</p>
+        <section class="resume-section" id="teaching">
+            <div class="resume-section-content">
+                <h2 class="mb-5" style="color: #003f88;">Teaching Experience</h2>
+
+                <div class="resume-content">
+                    <div class="d-flex flex-column flex-md-row justify-content align-items-center mb-3">
+                        <div class="subheading ms-4">Courses Instructed</div>
                     </div>
 
-                    <article class="surface-card experience-card mb-3">
-                        <div class="experience-top">
-                            <div class="experience-identity">
-                                <a href="https://cse.buet.ac.bd/"><img class="experience-logo" src="assets/img/BUET_LOGO.png" alt="BUET" /></a>
-                                <div>
-                                    <h3 class="mb-1" style="color:var(--ink);">Bangladesh University of Engineering and Technology (BUET)</h3>
-                                    <div class="fw-bold">Lecturer · Department of Computer Science and Engineering</div>
-                                </div>
-                            </div>
-                            <span class="date-pill experience-date">Nov 2022 - Apr 2024</span>
-                        </div>
-                        <p class="mb-0 text-muted">Taught undergraduate laboratory/session courses, supervised student projects, mentored students, and supported assessment and course delivery.</p>
-                    </article>
-
-                    <div class="teaching-grid">
-                        <article class="surface-card detail-card">
-                            <h3><i class="fas fa-chalkboard-teacher me-2 text-primary"></i>Selected Courses Instructed</h3>
-                            <ul>
-                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE462">CSE462: Algorithm Engineering Sessional</a></li>
-                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE408">CSE408: Software Development Sessional</a></li>
-                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE216">CSE216: Database Sessional</a></li>
-                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE208">CSE208: Data Structures and Algorithms II Sessional</a></li>
-                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE206">CSE206: Digital Logic Design Sessional</a></li>
-                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE110">CSE110: Computer Programming Sessional</a></li>
-                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE102">CSE102: Structured Programming Language Sessional</a></li>
-                            </ul>
-                        </article>
-                        <article class="surface-card detail-card">
-                            <h3><i class="fas fa-user-graduate me-2 text-primary"></i>Selected Projects Supervised</h3>
-                            <ul>
-                                <li><a href="https://bitsunplugged.onrender.com/landing">Bits Unplugged</a> - concept-first programming challenges.</li>
-                                <li><a href="https://github.com/jaid-monwr/BUET-CSE408-Agro">Agro</a> - farmer-to-wholesaler platform.</li>
-                                <li><a href="https://github.com/NawrizTurjo/AniMania-L2-T1">AniMania</a> - anime database and streaming platform.</li>
-                                <li><a href="https://github.com/zarif-itmam/CliqBus">CliqBus</a> - bus ticketing and management platform.</li>
-                                <li><a href="https://github.com/dipit099/FictionProfile-Database_Project">Fiction Profile</a> - media discovery and profile database.</li>
-                            </ul>
-                        </article>
-                    </div>
+                    <ul>
+                        <li> <a href="https://cse.buet.ac.bd/studies/course_detail/CSE462">CSE462 : Algorithm Engineering Sessional </a></li>
+                        <li> <a href="https://cse.buet.ac.bd/studies/course_detail/CSE408">CSE408 : Software Development Sessional </a></li>
+                        <li> <a href="https://cse.buet.ac.bd/studies/course_detail/CSE216">CSE216 : Database Sessional </a></li>
+                        <li> <a href="https://cse.buet.ac.bd/studies/course_detail/CSE208">CSE208 : Data Structures and Algorithms II Sessional </a></li>
+                        <li> <a href="https://cse.buet.ac.bd/studies/course_detail/CSE206">CSE206 : Digital Logic Design Sessional </a></li>
+                        <li> <a href="https://cse.buet.ac.bd/studies/course_detail/CSE110">CSE110 : Computer Programming Sessional </a></li>
+                        <li> <a href="https://cse.buet.ac.bd/studies/course_detail/CSE102">CSE102 : Structured Programming Language Sessional </a></li>
+                    </ul>
+                    
                 </div>
-            </section>
+                <br>
+
+                <div class="resume-content">
+                    <div class="d-flex flex-column flex-md-row justify-content align-items-center mb-3">
+                        <div class="subheading ms-4">Projects Supervised</div>
+                    </div>
+                    <ul> CSE408
+                        <ul>
+                        <li><a href="https://bitsunplugged.onrender.com/landing"> Bits Unplugged: Solve problems without code, focusing on concepts, with easy-to-use challenges.</a> </li>
+                        <li><a href="https://github.com/jaid-monwr/BUET-CSE408-Agro"> Agro: This project helps farmers connect with wholesalers through our platform, acting as the middleman </a> </li>
+                        </ul>
+                    </ul>
+
+                    <ul> CSE216
+                        <ul>
+                            <li><a href="https://github.com/NawrizTurjo/AniMania-L2-T1"> AniMania - Anime Database and Streaming Platform </a> </li>
+                            <li><a href="https://github.com/zarif-itmam/CliqBus"> EfficientTransit: Streamlining Bus Ticketing and Management with CliqBus </a> </li>
+                            <li><a href="https://github.com/dipit099/FictionProfile-Database_Project"> Fiction Profile: Explore, Connect, and Dive into Media Diversity</a> </li>
+                        </ul>
+                        </ul>
+                </div>
+                
+            </div>
+        </section>
 
         <hr class="m-0" />
 
             <!-- Awards-->
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
-                    <div class="section-head">
-                        <div class="section-kicker mb-2">Recognition &amp; support</div>
-                        <h2 class="section-title">Awards &amp; Grants</h2>
-                        <p class="section-lead">Industry recognition, competitive research support, and academic achievement.</p>
-                    </div>
-
-                    <div class="award-note">
-                        <b>IQVIA Impact Program:</b> an internal employee recognition program honoring staff members and consultants for exceptional performance, process improvement, and technical innovation. Recognition levels include Platinum, Gold, Silver, and Bronze.
-                    </div>
-
-                    <div class="award-grid">
-                        <article class="surface-card award-card">
-                            <div class="award-icon"><i class="fas fa-trophy"></i></div>
-                            <div class="award-type">Industry Recognition</div>
-                            <h3>IQVIA Impact Program - Platinum Award</h3>
-                            <p>Recognition in the highest Impact Program category for exceptional contribution and impact.</p>
-                            <span class="date-pill">2024</span>
-                        </article>
-                        <article class="surface-card award-card">
-                            <div class="award-icon"><i class="fas fa-award"></i></div>
-                            <div class="award-type">Industry Recognition</div>
-                            <h3>IQVIA Impact Program - Silver Award</h3>
-                            <p>Recognition for strong contribution, performance, and impact within IQVIA's internal program.</p>
-                            <span class="date-pill">2025</span>
-                        </article>
-                        <article class="surface-card award-card">
-                            <div class="award-icon"><i class="fas fa-flask"></i></div>
-                            <div class="award-type">Research Grant</div>
-                            <h3>M.Sc. Research Grant - BUET</h3>
-                            <p>Competitive $1,500 grant from the Directorate of Advisory, Extension and Research Services for the MapAgent research project.</p>
-                            <span class="date-pill">2024</span>
-                        </article>
-                        <article class="surface-card award-card">
-                            <div class="award-icon"><i class="fas fa-medal"></i></div>
-                            <div class="award-type">Academic Achievement</div>
-                            <h3>University Merit List Scholarship</h3>
-                            <p>Awarded for academic performance across two semesters.</p>
-                            <span class="date-pill">2 Semesters</span>
-                        </article>
-                        <article class="surface-card award-card">
-                            <div class="award-icon"><i class="fas fa-star"></i></div>
-                            <div class="award-type">Academic Achievement</div>
-                            <h3>University Dean's List</h3>
-                            <p>Named to the Dean's List for three consecutive academic years, Levels 2 through 4.</p>
-                            <span class="date-pill">3 Years</span>
-                        </article>
-                    </div>
+                    <h2 class="mb-5" style="color: #003f88;">Awards & Grants</h2>
+                    <ul class="fa-ul mb-0">
+                        <li class="mb-3"><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span><b>Platinum Award</b>, IQVIA Impact Program · 2024</li>
+                        <li class="mb-3"><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span><b>Silver Award</b>, IQVIA Impact Program · 2025</li>
+                        <li class="mb-3"><span class="fa-li"><i class="fas fa-award text-warning"></i></span><b>M.Sc. Research Grant</b>, Directorate of Advisory, Extension and Research Services, BUET · 2024 · $1,500 for MapAgent</li>
+                        <li class="mb-3"><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>University Merit List Scholarship · two semesters</li>
+                        <li><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>University Dean’s List · three consecutive years (Levels 2–4)</li>
+                    </ul>
                 </div>
             </section>
 
@@ -563,18 +407,14 @@
              <!-- Skills-->
              <section class="resume-section" id="skills">
                 <div class="resume-section-content">
-                    <div class="section-head">
-                        <div class="section-kicker mb-2">Technical toolkit</div>
-                        <h2 class="section-title">Technical Skills</h2>
-                        <p class="section-lead">Research and engineering tools used across LLM, machine learning, and production systems work.</p>
-                    </div>
-                    <div class="skills-grid">
-                        <article class="surface-card skill-card"><h3><i class="fas fa-brain me-2 text-primary"></i>Research</h3><p>Agentic AI, NLP, Large Language Models, LLM evaluation, trustworthy AI, RAG, reasoning, efficient inference.</p></article>
-                        <article class="surface-card skill-card"><h3><i class="fas fa-robot me-2 text-primary"></i>ML / AI</h3><p>PyTorch, TensorFlow, Hugging Face, LangChain, scikit-learn, production LLM and RAG systems.</p></article>
-                        <article class="surface-card skill-card"><h3><i class="fas fa-code me-2 text-primary"></i>Programming</h3><p>Python, C/C++, Java, JavaScript, SQL, LaTeX.</p></article>
-                        <article class="surface-card skill-card"><h3><i class="fas fa-cloud me-2 text-primary"></i>Cloud &amp; Systems</h3><p>AWS SageMaker, EC2, ECR, Bedrock, Docker, Kubernetes, Git.</p></article>
-                        <article class="surface-card skill-card"><h3><i class="fas fa-database me-2 text-primary"></i>Data</h3><p>PostgreSQL, MySQL, MongoDB, Snowflake.</p></article>
-                    </div>
+                    <h2 class="mb-5" style="color: #003f88;">Technical Skills</h2>
+                    <ul class="fa-ul mb-0">
+                        <li class="mb-2"><span class="fa-li"><i class="fas fa-check"></i></span><b>Research:</b> NLP, Large Language Models, LLM evaluation, trustworthy AI, agentic systems, RAG, efficient inference</li>
+                        <li class="mb-2"><span class="fa-li"><i class="fas fa-check"></i></span><b>ML / AI:</b> PyTorch, TensorFlow, Hugging Face, LangChain, scikit-learn</li>
+                        <li class="mb-2"><span class="fa-li"><i class="fas fa-check"></i></span><b>Programming:</b> Python, C/C++, Java, JavaScript, SQL, LaTeX</li>
+                        <li class="mb-2"><span class="fa-li"><i class="fas fa-check"></i></span><b>Cloud & Systems:</b> AWS SageMaker, EC2, ECR, Bedrock, Docker, Kubernetes, Git</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span><b>Data:</b> PostgreSQL, MySQL, MongoDB, Snowflake</li>
+                    </ul>
                 </div>
             </section>
 
@@ -583,11 +423,7 @@
             <!-- Projects-->
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
-                    <div class="section-head">
-                        <div class="section-kicker mb-2">Selected builds</div>
-                        <h2 class="section-title">Selected Projects</h2>
-                        <p class="section-lead">A selection of machine learning, security, networking, and software engineering projects.</p>
-                    </div>
+                    <h2 class="mb-5" style="color: #003f88;">Selected Projects</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0" style="color: #003f88;"><a href="https://drive.google.com/file/d/1Bepb5tXKr4rlEGXWOmYt5U8CVVtgHyLU/view?usp=sharing">Enhance Partial Dominant Pruning for AD HOC Wireless Networks</a></h3>
@@ -756,16 +592,25 @@
             <!-- Activities-->
             <section class="resume-section" id="activities">
                 <div class="resume-section-content">
-<div class="section-head">
-                        <div class="section-kicker mb-2">Community &amp; competition</div>
-                    <article class="surface-card activity-card">
-                        <h3 class="mb-3" style="color:var(--ink); font-size:1.15rem;">Programming Competitions</h3>
-                        <ul>
-                            <li><b>ACM ICPC Asia Dhaka Regional Contest</b> - 2018, 2019</li>
-                            <li><b>NSysS Programming Competition</b> - 2019</li>
-                            <li><b>Inter BUET Programming Competition</b> - 2018</li>
-                        </ul>
-                    </article>
+                    <h2 class="mb-5" style="color: #003f88;">Activities</h2>
+                    <!-- <div class="subheading mb-3">Workflow</div> -->
+                    <ul>
+                        <li>
+                            Participated in the following Programming Competition:
+                            <ul>
+                                <li>
+                                    <b>ACM ICPC Asia Dhaka Regional Contest 2018, 2019</b>
+                                </li>
+                                <li>
+                                    <b>NSysS Programming Competition 2019</b>
+                                </li>
+                                <li>
+                                    <b>Inter BUET Programming Competition 2018</b>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
                 </div>
             </section>
 

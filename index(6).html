@@ -246,7 +246,8 @@
                                     <span class="tag-chip">Efficient Inference</span>
                                 </div>
                                 <div class="d-flex flex-wrap gap-2">
-                                    <a class="btn btn-primary px-4 py-2 js-scroll-trigger" href="#cv"><i class="fas fa-file-alt me-2"></i>View CV</a>
+                                    <a class="btn btn-primary px-4 py-2 js-scroll-trigger" href="#cv"><i class="fas fa-briefcase me-2"></i>View Internship CV</a>
+                                    <a class="btn btn-outline-primary px-4 py-2" href="Md_Hasebul_Hasan_CV.pdf" target="_blank" rel="noopener"><i class="fas fa-file-alt me-2"></i>Research CV</a>
                                     <a class="btn btn-outline-dark px-4 py-2" href="https://scholar.google.com/citations?user=f8HAI_MAAAAJ&hl=en" target="_blank" rel="noopener"><i class="ai ai-google-scholar me-2"></i>Scholar</a>
                                 </div>
                             </div>
@@ -355,32 +356,52 @@
                     <div class="cv-shell">
                         <div class="row g-4 align-items-center">
                             <div class="col-xl-8">
-                                <div class="section-kicker mb-2" style="color:#7bd3e0;">Curriculum Vitae</div>
-                                <h2 class="section-title mb-2">My CV</h2>
-                                <!-- <p class="mb-0">A concise two-page CV highlighting my PhD research, ICML Spotlight and EACL publications, Agentic AI / NLP / LLM work, and 3+ years of machine learning engineering experience at IQVIA.</p> -->
+                                <div class="section-kicker mb-2" style="color:#7bd3e0;">Two versions, one profile</div>
+                                <h2 class="section-title mb-2">Choose My CV</h2>
+                                <p class="mb-0">Use the <b>Internship CV</b> for industry research, applied scientist, and ML/LLM internship roles. Use the <b>Research CV</b> when you want a fuller view of publications, teaching, awards, and academic work.</p>
                             </div>
-                            <div class="col-xl-4 text-xl-end">
-                                <div class="d-flex flex-wrap gap-2 justify-content-xl-end">
-                                    <a class="btn btn-soft" href="Md_Hasebul_Hasan_CV.pdf" target="_blank" rel="noopener"><i class="fas fa-external-link-alt me-2"></i>Open CV</a>
-                                    <a class="btn btn-soft" href="Md_Hasebul_Hasan_CV.pdf" download><i class="fas fa-download me-2"></i>Download CV</a>
-                                </div>
+                            <div class="col-lg-4 text-lg-end">
+                                <a class="btn btn-soft mb-2" href="mailto:mdhasebul.hasan@uta.edu"><i class="fas fa-envelope me-2"></i>Contact Me</a>
                             </div>
                         </div>
 
                         <div class="cv-context-strip">
-                            <div class="cv-context-item"><b>Research</b><span>ICML 2025 Spotlight (Top 2.6%) and EACL 2026 Findings first author.</span></div>
-                            <div class="cv-context-item"><b>Industry</b><span>3+ years at IQVIA building production ML and LLM systems.</span></div>
-                            <div class="cv-context-item"><b>Focus</b><span>Agentic AI, NLP/LLMs, trustworthy AI, and efficient LLM systems.</span></div>
+                            <div class="cv-context-item"><b>Research signal</b><span>ICML 2025 Spotlight (Top 2.6%) + EACL 2026 Findings first author.</span></div>
+                            <div class="cv-context-item"><b>Industry signal</b><span>3+ years at IQVIA building production ML and LLM systems.</span></div>
+                            <div class="cv-context-item"><b>Internship focus</b><span>Agentic AI, NLP/LLMs, trustworthy AI, and efficient LLM systems.</span></div>
+                        </div>
+
+                        <div class="cv-choice-grid">
+                            <article class="cv-choice-card active" id="internshipCvCard">
+                                <div class="cv-choice-label"><i class="fas fa-briefcase"></i> Recommended for recruiters</div>
+                                <h3>Internship CV</h3>
+                                <p>Concise recruiter-focused version emphasizing Agentic AI, top-tier publications, 3+ years of ML engineering, production impact, technical skills, and research readiness.</p>
+                                <div class="cv-choice-actions">
+                                    <button class="btn btn-sm btn-preview" type="button" onclick="previewCV('Md_Hasebul_Hasan_Internship_CV.pdf','Internship CV','internshipCvCard')"><i class="fas fa-eye me-1"></i>Preview</button>
+                                    <a class="cv-link align-self-center" href="Md_Hasebul_Hasan_Internship_CV.pdf" target="_blank" rel="noopener">Open</a>
+                                    <a class="cv-link align-self-center" href="Md_Hasebul_Hasan_Internship_CV.pdf" download>Download</a>
+                                </div>
+                            </article>
+                            <article class="cv-choice-card" id="researchCvCard">
+                                <div class="cv-choice-label"><i class="fas fa-flask"></i> Full academic profile</div>
+                                <h3>Research CV</h3>
+                                <p>Expanded research-oriented version covering NLP/LLM interests, publications, BUET teaching, IQVIA experience, technical skills, grants, and awards.</p>
+                                <div class="cv-choice-actions">
+                                    <button class="btn btn-sm btn-preview" type="button" onclick="previewCV('Md_Hasebul_Hasan_CV.pdf','Research CV','researchCvCard')"><i class="fas fa-eye me-1"></i>Preview</button>
+                                    <a class="cv-link align-self-center" href="Md_Hasebul_Hasan_CV.pdf" target="_blank" rel="noopener">Open</a>
+                                    <a class="cv-link align-self-center" href="Md_Hasebul_Hasan_CV.pdf" download>Download</a>
+                                </div>
+                            </article>
                         </div>
 
                         <div class="cv-preview-heading">
-                            <span><strong>2-page CV preview</strong></span>
-                            <span class="d-none d-md-inline">Use Open CV for a full-window view.</span>
+                            <span>Previewing: <strong id="cvPreviewLabel">Internship CV</strong></span>
+                            <span class="d-none d-md-inline">Switch versions above without leaving the page.</span>
                         </div>
                         <div class="cv-viewer">
-                            <div class="cv-mobile-note">For the best mobile experience, use <b>Open CV</b> above to view the document in your phone's PDF viewer.</div>
-                            <iframe id="cvPreviewFrame" src="Md_Hasebul_Hasan_CV.pdf#view=FitH&amp;toolbar=1&amp;navpanes=0" title="Md Hasebul Hasan CV">
-                                Your browser cannot display the embedded PDF. <a href="Md_Hasebul_Hasan_CV.pdf" target="_blank" rel="noopener">Open the CV in a new tab</a>.
+                            <div class="cv-mobile-note">For the best mobile experience, use the <b>Open</b> button above to view the selected CV in your phone's PDF viewer.</div>
+                            <iframe id="cvPreviewFrame" src="Md_Hasebul_Hasan_Internship_CV.pdf#view=FitH&amp;toolbar=1&amp;navpanes=0" title="Md Hasebul Hasan Internship CV">
+                                Your browser cannot display the embedded PDF. <a href="Md_Hasebul_Hasan_Internship_CV.pdf" target="_blank" rel="noopener">Open the Internship CV in a new tab</a>.
                             </iframe>
                         </div>
                     </div>
@@ -771,6 +792,22 @@
 
             <hr class="m-0" />
         </div>
+        <script>
+            function previewCV(file, label, cardId) {
+                var frame = document.getElementById('cvPreviewFrame');
+                var labelEl = document.getElementById('cvPreviewLabel');
+                if (frame) {
+                    frame.src = file + '#view=FitH&toolbar=1&navpanes=0';
+                    frame.title = 'Md Hasebul Hasan ' + label;
+                }
+                if (labelEl) labelEl.textContent = label;
+                document.querySelectorAll('.cv-choice-card').forEach(function(card) {
+                    card.classList.remove('active');
+                });
+                var activeCard = document.getElementById(cardId);
+                if (activeCard) activeCard.classList.add('active');
+            }
+        </script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
