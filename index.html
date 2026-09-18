@@ -4,195 +4,314 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="Computer Science PhD researcher at UT Arlington working on Agentic AI, NLP, Large Language Models, trustworthy AI, and efficient LLM systems. ICML 2025 Spotlight co-author, EACL 2026 Findings first author, and former IQVIA ML Engineer with 3+ years of industry experience. Seeking 2027 research and applied AI internships." />
-        <meta name="author" content="Md Hasebul Hasan Shawon" />
-        <title>Md Hasebul Hasan Shawon | NLP & LLM Researcher</title>
+        <meta name="author" content="Md Hasebul Hasan" />
+        <title>Md Hasebul Hasan | NLP & LLM Researcher</title>
         <link rel="icon" type="image/x-icon" href="assets/img/ai.png" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+<!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
 
         <style>
             :root {
-                --ink: #10233f;
-                --muted: #5d6b7c;
-                --accent: #0064b1;
-                --accent-2: #18a0a8;
-                --soft: #f5f9fd;
-                --line: #dce6ef;
-                --nav: rgba(8, 29, 52, 0.96);
+                --ink: #0b1f33;
+                --ink-2: #19344e;
+                --muted: #64748b;
+                --accent: #0b63ce;
+                --accent-dark: #084b9a;
+                --accent-2: #0f9fa5;
+                --soft: #f6f8fb;
+                --soft-blue: #eef5fc;
+                --line: #dce5ee;
+                --nav: rgba(8, 24, 40, .97);
+                --shadow-sm: 0 8px 24px rgba(12, 36, 58, .055);
+                --shadow-md: 0 18px 50px rgba(12, 36, 58, .10);
             }
-            html { scroll-behavior: smooth; }
-            body { color: var(--ink); background: #ffffff; }
-            a { text-decoration-thickness: .08em; text-underline-offset: .16em; }
-            .resume-section { min-height: auto !important; }
-            .resume-section-content { width: 100%; max-width: 1320px !important; margin: 0 auto; }
-            .section-kicker { font-size: .78rem; text-transform: uppercase; letter-spacing: .16em; font-weight: 800; color: var(--accent); }
-            .section-title { font-size: clamp(2rem, 3vw, 3.25rem); color: var(--ink) !important; margin-bottom: .75rem; }
-            .section-lead { color: var(--muted); max-width: 900px; }
-            .surface-card { background: #fff; border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 10px 30px rgba(20, 50, 80, .06); transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
-            .surface-card:hover { transform: translateY(-2px); box-shadow: 0 14px 36px rgba(20, 50, 80, .10); border-color:#c8dbea; }
-            .hero-wrap { position: relative; overflow: hidden; border-radius: 28px; background: linear-gradient(135deg, #f4f9ff 0%, #ffffff 56%, #eefbfb 100%); border: 1px solid var(--line); padding: clamp(2rem, 4vw, 4.5rem); }
-            .hero-wrap:after { content: ''; position: absolute; width: 340px; height: 340px; border-radius: 50%; right: -120px; top: -130px; background: radial-gradient(circle, rgba(0,100,177,.15), rgba(0,100,177,0)); pointer-events: none; }
-            .hero-name { font-size: clamp(3rem, 6vw, 5.6rem); line-height: .92; color: var(--ink); letter-spacing: -.035em; }
-            .hero-role { font-size: clamp(1.15rem, 2vw, 1.55rem); font-weight: 700; color: var(--accent); }
-            .hero-copy { font-size: 1.08rem; line-height: 1.75; color: #32455c; max-width: 860px; }
-            .tag-row { display:flex; flex-wrap:wrap; gap:.55rem; }
-            .tag-chip { border: 1px solid #cfe0ef; background: rgba(255,255,255,.86); color: #234969; border-radius: 999px; padding: .5rem .82rem; font-weight: 700; font-size: .86rem; }
-            .internship-box { background: #0d2744; color: #fff; border-radius: 18px; padding: 1.35rem 1.45rem; }
-            .internship-box .small { color: #bcd2e7 !important; }
-            .metric-grid { display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: .9rem; }
-            .metric-card { background:#fff; border:1px solid var(--line); border-radius:16px; padding:1.15rem; min-height:110px; display:flex; flex-direction:column; justify-content:center; }
-            .metric-value { font-size:1.25rem; font-weight:800; color:var(--accent); }
-            .metric-label { color:var(--muted); font-size:.88rem; margin-top:.25rem; }
-            .edu-grid { display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:1.25rem; }
-            .edu-card { padding:1.5rem; position:relative; overflow:hidden; }
-            .edu-card .school-logo { width:56px; height:56px; object-fit:contain; margin-bottom:1rem; }
-            .edu-card h3 { color:var(--ink) !important; font-size:1.35rem; }
-            .date-pill { display:inline-block; border-radius:999px; background:#eef5fb; color:#24577f; padding:.35rem .65rem; font-size:.78rem; font-weight:800; }
-            .pub-grid { display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:1.2rem; }
-            .pub-card { padding:1.45rem; height:100%; }
-            .pub-card h3 { color:var(--ink); font-size:1.32rem; line-height:1.25; }
-            .pub-meta { color:var(--muted); font-size:.92rem; line-height:1.55; }
+
+            html { scroll-behavior: smooth; scroll-padding-top: 88px; }
+            body {
+                color: var(--ink-2);
+                background: #fff;
+                font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+                font-size: 16px;
+                line-height: 1.7;
+                letter-spacing: -.006em;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+                text-transform: none !important;
+                letter-spacing: -.025em;
+            }
+            a { color: var(--accent-dark); text-decoration-thickness: .07em; text-underline-offset: .18em; }
+            a:hover { color: var(--accent); }
+            .text-primary { color: var(--accent) !important; }
+            .bg-primary { background-color: var(--accent) !important; }
+            .btn { border-radius: 9px; font-weight: 700; letter-spacing: -.01em; box-shadow: none !important; }
+            .btn-primary { background: var(--accent); border-color: var(--accent); }
+            .btn-primary:hover { background: var(--accent-dark); border-color: var(--accent-dark); }
+            .btn-outline-dark { color: var(--ink); border-color: #9fb0c1; background:#fff; }
+            .btn-outline-dark:hover { background: var(--ink); border-color: var(--ink); }
+
+            .container-fluid > hr { display: none; }
+            .resume-section {
+                min-height: auto !important;
+                max-width: none !important;
+                padding: clamp(4.5rem, 7vw, 7rem) 4vw !important;
+                border-bottom: 1px solid #edf1f5;
+            }
+            .resume-section-content { width: 100%; max-width: 1180px !important; margin: 0 auto; }
+            #education, #cv, #skills, #talks { background: var(--soft); }
+
+            .section-head { margin-bottom: 2rem; }
+            .section-kicker {
+                display: inline-flex;
+                align-items: center;
+                gap: .55rem;
+                font-size: .72rem;
+                text-transform: uppercase;
+                letter-spacing: .17em;
+                font-weight: 800;
+                color: var(--accent);
+            }
+            .section-kicker::before { content:""; width: 24px; height: 2px; border-radius: 999px; background: var(--accent); }
+            .section-title {
+                font-size: clamp(2rem, 3.2vw, 2.8rem);
+                color: var(--ink) !important;
+                line-height: 1.12;
+                margin-bottom: .65rem;
+            }
+            .section-lead { color: var(--muted); max-width: 800px; line-height: 1.7; }
+
+            .surface-card {
+                position: relative;
+                background: #fff;
+                border: 1px solid var(--line);
+                border-radius: 14px;
+                box-shadow: var(--shadow-sm);
+                transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+            }
+            .surface-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); border-color: #c4d4e2; }
+
+            /* Navigation */
+            #sideNav {
+                background: var(--nav) !important;
+                backdrop-filter: blur(14px);
+                -webkit-backdrop-filter: blur(14px);
+                border-bottom: 1px solid rgba(255,255,255,.08);
+                box-shadow: 0 8px 28px rgba(5, 20, 34, .14);
+            }
+            #sideNav .navbar-brand { font-family: "Manrope", sans-serif; font-weight: 800; letter-spacing: -.02em; }
+            #sideNav .nav-link {
+                color: rgba(255,255,255,.72) !important;
+                font-family: "Inter", sans-serif;
+                font-weight: 600 !important;
+                text-transform: none !important;
+                letter-spacing: -.01em !important;
+                border-radius: 8px;
+                transition: color .15s ease, background .15s ease;
+            }
+            #sideNav .nav-link:hover, #sideNav .nav-link.active { color:#fff !important; background:rgba(255,255,255,.08); }
+
+            /* Hero */
+            #about { padding-top: clamp(3rem, 5vw, 4.5rem) !important; background: linear-gradient(180deg, #fbfcfe 0%, #fff 82%); }
+            .hero-wrap {
+                position: relative;
+                overflow: hidden;
+                border-radius: 22px;
+                background:
+                    radial-gradient(circle at 90% 8%, rgba(11, 99, 206, .12), transparent 28%),
+                    radial-gradient(circle at 14% 90%, rgba(15, 159, 165, .08), transparent 32%),
+                    #fff;
+                border: 1px solid var(--line);
+                box-shadow: 0 28px 80px rgba(12,36,58,.08);
+                padding: clamp(2rem, 4vw, 4rem);
+            }
+            .hero-wrap::before {
+                content:""; position:absolute; inset:0 auto 0 0; width:4px;
+                background: linear-gradient(180deg, var(--accent), var(--accent-2));
+            }
+            .hero-name {
+                font-size: clamp(3.05rem, 6vw, 5rem);
+                line-height: .98;
+                color: var(--ink);
+                letter-spacing: -.055em;
+                margin-bottom: 1.1rem !important;
+            }
+            .hero-role { font-size: clamp(1.05rem, 1.9vw, 1.35rem); font-weight: 700; color: var(--accent-dark); line-height:1.45; }
+            .hero-copy { font-size: 1.02rem; line-height: 1.82; color: #40566d; max-width: 800px; }
+            .hero-copy b { color: var(--ink-2); }
+            .tag-row { display:flex; flex-wrap:wrap; gap:.5rem; }
+            .tag-chip {
+                border: 1px solid #d4e2ee;
+                background: #f8fbfe;
+                color: #2f506d;
+                border-radius: 999px;
+                padding: .42rem .72rem;
+                font-weight: 700;
+                font-size: .78rem;
+            }
+            .internship-box {
+                background: linear-gradient(150deg, #0b2239 0%, #123e65 100%);
+                color: #fff;
+                border-radius: 16px;
+                padding: 1.25rem;
+                box-shadow: 0 18px 42px rgba(9, 37, 63, .18);
+            }
+            .profile-mini { display:flex; align-items:center; gap:.85rem; padding-bottom:1rem; margin-bottom:1rem; border-bottom:1px solid rgba(255,255,255,.14); }
+            .profile-mini img { width:72px; height:72px; border-radius:14px; object-fit:cover; object-position:center top; border:2px solid rgba(255,255,255,.24); }
+            .profile-mini-name { font-family:"Manrope",sans-serif; font-size:1rem; font-weight:800; color:#fff; line-height:1.25; }
+            .profile-mini-role { color:#bcd2e6; font-size:.78rem; line-height:1.4; margin-top:.18rem; }
+            .availability-pill { display:inline-flex; align-items:center; gap:.38rem; font-size:.66rem; text-transform:uppercase; letter-spacing:.08em; font-weight:800; color:#bfeff1; margin-bottom:.35rem; }
+            .availability-pill::before { content:""; width:7px; height:7px; border-radius:50%; background:#4ade80; box-shadow:0 0 0 4px rgba(74,222,128,.12); }
+            .internship-box .small { color: #c7d8e7 !important; }
+            .metric-grid { display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: .75rem; }
+            .metric-card { background:#fff; border:1px solid var(--line); border-radius:12px; padding:1rem; min-height:100px; display:flex; flex-direction:column; justify-content:center; box-shadow:var(--shadow-sm); }
+            .metric-value { font-family:"Manrope",sans-serif; font-size:1.05rem; font-weight:800; color:var(--accent-dark); }
+            .metric-label { color:var(--muted); font-size:.78rem; line-height:1.45; margin-top:.22rem; }
+            .social-icons { display:flex; gap:.55rem; flex-wrap:wrap; }
+            .social-icons .social-icon {
+                width: 44px; height:44px; margin:0 !important; border-radius:10px;
+                background:#fff; color:var(--ink-2); border:1px solid var(--line);
+                font-size:1.05rem; box-shadow:var(--shadow-sm);
+            }
+            .social-icons .social-icon:hover { background:var(--ink); border-color:var(--ink); color:#fff; transform:translateY(-1px); }
+
+            /* Education */
+            .edu-grid { display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:1rem; }
+            .edu-card { padding:1.35rem; overflow:hidden; }
+            .edu-card::after { content:""; position:absolute; right:-32px; bottom:-32px; width:90px; height:90px; border-radius:50%; background:var(--soft-blue); }
+            .edu-card .school-logo { width:52px; height:52px; object-fit:contain; margin-bottom:1rem; position:relative; z-index:1; }
+            .edu-card h3 { color:var(--ink) !important; font-size:1.15rem; line-height:1.35; }
+            .date-pill { display:inline-block; border-radius:999px; background:#edf4fb; color:#245a86; padding:.32rem .62rem; font-size:.72rem; font-weight:800; }
+
+            /* Publications */
+            .pub-grid { display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:1rem; margin-bottom:2.2rem; }
+            .pub-card { padding:1.35rem; height:100%; overflow:hidden; }
+            .pub-card::before { content:""; position:absolute; left:0; top:0; right:0; height:3px; background:linear-gradient(90deg,var(--accent),var(--accent-2)); }
+            .pub-card .badge { border-radius:999px; font-size:.68rem; letter-spacing:.02em; padding:.44rem .62rem; }
+            .pub-card h3 { color:var(--ink); font-size:1.12rem; line-height:1.38; margin-bottom:.85rem; }
+            .pub-meta { color:var(--muted); font-size:.84rem; line-height:1.6; }
             .current-grid { display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap:1rem; }
-            .current-card { padding:1.25rem; border-left:4px solid var(--accent-2); }
-            .cv-shell { background:#0d2744; color:#fff; border-radius:24px; padding: clamp(1.4rem, 2.5vw, 2.3rem); box-shadow:0 18px 50px rgba(12,39,68,.20); }
+            .current-card { padding:1.15rem 1.25rem; border-left:3px solid var(--accent-2); box-shadow:none; }
+            .current-card b { color:var(--ink); }
+
+            /* CV */
+            .cv-shell { background:linear-gradient(145deg,#0a2035,#123f64); color:#fff; border-radius:18px; padding:clamp(1.4rem,2.6vw,2.2rem); box-shadow:0 24px 65px rgba(8,32,53,.18); }
             .cv-shell h2 { color:#fff !important; }
-            .cv-shell p { color:#c9d9e7; }
-            .cv-viewer { background:#eaf0f5; padding:1rem; border-radius:18px; margin-top:1.25rem; }
-            .cv-viewer iframe { display:block; width:100%; height:min(1180px, 88vh); min-height:780px; border:0; border-radius:12px; background:white; }
+            .cv-shell .section-kicker { color:#87d8dc !important; }
+            .cv-shell .section-kicker::before { background:#87d8dc; }
             .btn-soft { background:#fff; color:#0d2744; border:1px solid #fff; font-weight:800; }
             .btn-soft:hover { background:#e7f2fb; color:#0d2744; }
-            .btn-ghost-light { color:#fff; border:1px solid rgba(255,255,255,.38); font-weight:800; }
-            .btn-ghost-light:hover { background:rgba(255,255,255,.10); color:#fff; }
-            .cv-choice-grid { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:1rem; margin-top:1.4rem; }
-            .cv-choice-card { border:1px solid rgba(255,255,255,.22); background:rgba(255,255,255,.07); border-radius:16px; padding:1.15rem; color:#fff; transition:.18s ease; }
-            .cv-choice-card.active { background:#fff; color:#0d2744; border-color:#fff; box-shadow:0 12px 30px rgba(0,0,0,.16); }
-            .cv-choice-card h3 { color:inherit !important; font-size:1.2rem; margin-bottom:.45rem; }
-            .cv-choice-card p { color:#c9d9e7; font-size:.9rem; line-height:1.55; margin-bottom:.8rem; }
-            .cv-choice-card.active p { color:#52677a; }
-            .cv-choice-label { display:inline-flex; align-items:center; gap:.4rem; font-size:.72rem; font-weight:800; text-transform:uppercase; letter-spacing:.08em; color:#7bd3e0; margin-bottom:.55rem; }
-            .cv-choice-card.active .cv-choice-label { color:#087f8c; }
-            .cv-choice-actions { display:flex; flex-wrap:wrap; gap:.5rem; }
-            .cv-choice-card .btn-preview { border:1px solid rgba(255,255,255,.4); color:#fff; font-weight:800; }
-            .cv-choice-card .btn-preview:hover { background:rgba(255,255,255,.10); color:#fff; }
-            .cv-choice-card.active .btn-preview { background:#0d2744; border-color:#0d2744; color:#fff; }
-            .cv-choice-card .cv-link { color:#fff; font-weight:800; font-size:.84rem; }
-            .cv-choice-card.active .cv-link { color:#0064b1; }
-            .cv-preview-heading { display:flex; align-items:center; justify-content:space-between; gap:1rem; margin-top:1.25rem; color:#d7e7f4; font-size:.9rem; }
+            .cv-context-strip { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.75rem; margin-top:1.25rem; }
+            .cv-context-item { background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.13); border-radius:10px; padding:.82rem .95rem; }
+            .cv-context-item b { display:block; color:#fff; font-size:.82rem; margin-bottom:.14rem; }
+            .cv-context-item span { color:#bfd1e0; font-size:.76rem; line-height:1.45; display:block; }
+            .cv-preview-heading { display:flex; align-items:center; justify-content:space-between; gap:1rem; margin-top:1.25rem; color:#d7e7f4; font-size:.82rem; }
             .cv-preview-heading strong { color:#fff; }
-            .cv-context-strip { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.75rem; margin-top:1.2rem; }
-            .cv-context-item { background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.13); border-radius:12px; padding:.85rem 1rem; }
-            .cv-context-item b { display:block; color:#fff; font-size:.9rem; margin-bottom:.15rem; }
-            .cv-context-item span { color:#bcd2e7; font-size:.8rem; line-height:1.4; display:block; }
-            *, *::before, *::after { box-sizing: border-box; }
-            .section-head { margin-bottom: 2rem; }
-            .section-head .section-title { margin-bottom: .55rem; }
-            .section-head .section-lead { margin-bottom: 0; }
-            .experience-card { padding: clamp(1.25rem, 2vw, 1.8rem); }
-            .experience-logo { width:58px; height:58px; object-fit:contain; flex:0 0 auto; }
-            .experience-top { display:flex; align-items:flex-start; justify-content:space-between; gap:1.25rem; margin-bottom:1rem; }
-            .experience-identity { display:flex; align-items:center; gap:1rem; min-width:0; }
+            .cv-viewer { background:#e9eff5; padding:.8rem; border-radius:12px; margin-top:.75rem; }
+            .cv-viewer iframe { display:block; width:100%; height:min(1180px,88vh); min-height:780px; border:0; border-radius:8px; background:white; }
+            .cv-mobile-note { display:none; }
+
+            /* Experience & teaching */
+            .experience-card { padding:clamp(1.2rem,2vw,1.6rem); }
+            .experience-logo { width:52px; height:52px; object-fit:contain; flex:0 0 auto; border-radius:9px; }
+            .experience-top { display:flex; align-items:flex-start; justify-content:space-between; gap:1.2rem; margin-bottom:1rem; }
+            .experience-identity { display:flex; align-items:center; gap:.9rem; min-width:0; }
+            .experience-identity h3 { font-size:1.12rem !important; line-height:1.35; }
             .experience-date { flex:0 0 auto; }
-            .experience-card ul { margin-bottom:0; padding-left:1.25rem; }
-            .experience-card li + li { margin-top:.45rem; }
+            .experience-card ul { margin-bottom:0; padding-left:1.2rem; }
+            .experience-card li + li { margin-top:.48rem; }
             .teaching-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; margin-top:1rem; }
-            .detail-card { padding:1.35rem; }
-            .detail-card h3 { color:var(--ink) !important; font-size:1.15rem; margin-bottom:.9rem; }
-            .detail-card ul { margin-bottom:0; padding-left:1.15rem; }
-            .detail-card li + li { margin-top:.35rem; }
-            .award-note { background:#f4f9fd; border:1px solid var(--line); border-radius:16px; padding:1rem 1.15rem; color:#40556b; margin-bottom:1.15rem; }
+            .detail-card { padding:1.2rem; }
+            .detail-card h3 { color:var(--ink) !important; font-size:1rem; margin-bottom:.8rem; }
+            .detail-card ul { margin-bottom:0; padding-left:1.12rem; font-size:.9rem; }
+            .detail-card li + li { margin-top:.34rem; }
+
+            /* Awards & skills */
+            .award-note { background:#f4f8fc; border:1px solid var(--line); border-radius:12px; padding:.95rem 1.05rem; color:#496176; margin-bottom:1rem; font-size:.9rem; }
             .award-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
-            .award-card { padding:1.25rem; display:flex; flex-direction:column; min-height:185px; }
-            .award-icon { width:42px; height:42px; display:inline-flex; align-items:center; justify-content:center; border-radius:12px; background:#eef5fb; color:var(--accent); margin-bottom:.9rem; }
-            .award-card h3 { color:var(--ink) !important; font-size:1.12rem; line-height:1.25; margin-bottom:.45rem; }
-            .award-type { text-transform:uppercase; letter-spacing:.09em; font-size:.7rem; font-weight:800; color:var(--accent); margin-bottom:.35rem; }
-            .award-card p { color:var(--muted); font-size:.9rem; line-height:1.5; margin-bottom:.8rem; }
+            .award-card { padding:1.2rem; display:flex; flex-direction:column; min-height:178px; }
+            .award-icon { width:38px; height:38px; display:inline-flex; align-items:center; justify-content:center; border-radius:10px; background:#edf4fb; color:var(--accent); margin-bottom:.75rem; }
+            .award-card h3 { color:var(--ink) !important; font-size:1rem; line-height:1.35; margin-bottom:.4rem; }
+            .award-type { text-transform:uppercase; letter-spacing:.09em; font-size:.64rem; font-weight:800; color:var(--accent); margin-bottom:.3rem; }
+            .award-card p { color:var(--muted); font-size:.84rem; line-height:1.55; margin-bottom:.7rem; }
             .award-card .date-pill { margin-top:auto; align-self:flex-start; }
             .skills-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
-            .skill-card { padding:1.25rem; }
-            .skill-card h3 { color:var(--ink) !important; font-size:1.08rem; margin-bottom:.55rem; }
-            .skill-card p { color:#4d6175; margin-bottom:0; line-height:1.6; }
-            #projects .resume-section-content > .d-flex { background:#fff; border:1px solid var(--line); border-radius:16px; padding:1.25rem 1.35rem; margin-bottom:1rem !important; box-shadow:0 8px 24px rgba(20,50,80,.045); gap:1rem; }
-            #projects .resume-section-content > .d-flex h3 { font-size:1.18rem; line-height:1.3; margin-bottom:.55rem !important; }
-            #projects .resume-section-content > .d-flex ul { margin-bottom:0; padding-left:1.2rem; }
-            #projects .resume-section-content > .d-flex .flex-shrink-0 { padding-top:.1rem; white-space:nowrap; }
-            .activity-card { padding:1.3rem; }
-            .activity-card ul { margin-bottom:0; }
-            .container-fluid > hr { border-color:#e7eef5; opacity:1; }
-            #education, #publications, #cv, #work, #teaching, #awards, #skills, #projects, #activities { padding-top: clamp(3.75rem, 5vw, 5.5rem) !important; padding-bottom: clamp(3.75rem, 5vw, 5.5rem) !important; }
-            #education, #cv, #skills { background: var(--soft); }
-            @media (min-width: 1200px) {
-                body { padding-top: 78px !important; padding-left: 0 !important; }
-                #sideNav { width:100% !important; height:78px !important; min-height:78px !important; top:0; left:0; right:0; bottom:auto !important; flex-direction:row !important; padding:.65rem 4vw !important; background:var(--nav) !important; backdrop-filter: blur(12px); box-shadow:0 6px 24px rgba(0,0,0,.12); }
+            .skill-card { padding:1.2rem; box-shadow:none; }
+            .skill-card h3 { color:var(--ink) !important; font-size:1rem; margin-bottom:.45rem; }
+            .skill-card p { color:#4d6175; margin-bottom:0; line-height:1.6; font-size:.9rem; }
+
+            /* Selected talks & conference presentations */
+            .talks-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+            .talk-card { padding:1.35rem; position:relative; overflow:hidden; }
+            .talk-card::before { content:""; position:absolute; left:0; top:0; bottom:0; width:4px; background:var(--accent); }
+            .talk-card-top { display:flex; align-items:flex-start; justify-content:space-between; gap:1rem; margin-bottom:.85rem; }
+            .talk-icon { width:42px; height:42px; display:inline-flex; align-items:center; justify-content:center; border-radius:11px; background:#edf4fb; color:var(--accent); flex:0 0 auto; }
+            .talk-card h3 { color:var(--ink) !important; font-size:1.05rem; line-height:1.45; margin-bottom:.55rem; }
+            .talk-venue { font-weight:750; color:#294c6b; font-size:.88rem; margin-bottom:.35rem; }
+            .talk-meta { color:var(--muted); font-size:.84rem; line-height:1.55; margin-bottom:.8rem; }
+            .talk-link { font-size:.82rem; font-weight:750; text-decoration:none; }
+
+            .site-footer { background:#081828; color:#aebfd0; padding:2rem 4vw; }
+            .site-footer-inner { max-width:1180px; margin:0 auto; display:flex; justify-content:space-between; align-items:center; gap:1.25rem; }
+            .site-footer strong { font-family:"Manrope",sans-serif; color:#fff; }
+            .footer-links { display:flex; flex-wrap:wrap; gap:1rem; }
+            .footer-links a { color:#c9d6e2; text-decoration:none; font-size:.86rem; font-weight:600; }
+            .footer-links a:hover { color:#fff; }
+
+            @media (min-width:1200px) {
+                body { padding-top:74px !important; padding-left:0 !important; }
+                #sideNav { width:100% !important; height:74px !important; min-height:74px !important; top:0; left:0; right:0; bottom:auto !important; flex-direction:row !important; padding:.58rem 3.2vw !important; }
                 #sideNav .navbar-brand { margin:0 1.2rem 0 0 !important; padding:0 !important; }
                 #sideNav .navbar-brand .d-lg-block { display:none !important; }
-                #sideNav .navbar-brand .d-lg-none { display:block !important; font-weight:800; font-size:1.05rem; white-space:nowrap; }
+                #sideNav .navbar-brand .d-lg-none { display:block !important; font-size:.98rem; white-space:nowrap; }
                 #sideNav .navbar-collapse { display:flex !important; align-items:center; flex-basis:auto; }
-                #sideNav .navbar-nav { flex-direction:row !important; gap:.2rem; flex-wrap:wrap; justify-content:flex-end; width:100%; }
-                #sideNav .nav-link { padding:.48rem .52rem !important; font-size:.76rem; letter-spacing:.015em; white-space:nowrap; }
-                .resume-section { padding: 6rem 4vw !important; }
-                #about { padding-top:4.5rem !important; }
+                #sideNav .navbar-nav { flex-direction:row !important; gap:.05rem; flex-wrap:nowrap; justify-content:flex-end; width:100%; }
+                #sideNav .nav-link { padding:.42rem .48rem !important; font-size:.73rem; white-space:nowrap; }
             }
-            @media (min-width: 1200px) and (max-width: 1399.98px) {
-                #sideNav { padding-left:2.2vw !important; padding-right:2.2vw !important; }
-                #sideNav .navbar-brand .d-lg-none { font-size:.96rem; }
-                #sideNav .nav-link { padding-left:.42rem !important; padding-right:.42rem !important; font-size:.72rem; }
-            }
-            @media (max-width: 1199.98px) {
-                body { padding-top: 64px !important; padding-left: 0 !important; }
-                #sideNav { width:100% !important; height:auto !important; min-height:64px !important; top:0; left:0; right:0; bottom:auto !important; padding:.65rem 1.25rem !important; background:var(--nav) !important; box-shadow:0 6px 24px rgba(0,0,0,.12); }
+            @media (max-width:1199.98px) {
+                body { padding-top:64px !important; padding-left:0 !important; }
+                #sideNav { width:100% !important; height:auto !important; min-height:64px !important; top:0; left:0; right:0; bottom:auto !important; padding:.65rem 1.15rem !important; }
                 #sideNav .navbar-brand { margin:0 !important; padding:0 !important; }
                 #sideNav .navbar-brand .d-lg-block { display:none !important; }
-                #sideNav .navbar-brand .d-lg-none { display:block !important; font-weight:800; font-size:1rem; white-space:nowrap; }
+                #sideNav .navbar-brand .d-lg-none { display:block !important; font-size:.95rem; white-space:nowrap; }
                 #sideNav .navbar-collapse { width:100%; }
-                #sideNav .navbar-nav { padding-top:.65rem; padding-bottom:.35rem; }
-                #sideNav .nav-link { padding:.5rem .25rem !important; font-size:.84rem; }
-                .resume-section { padding: 4.75rem 3vw !important; }
-                .pub-grid, .edu-grid, .award-grid { grid-template-columns:1fr 1fr; }
-                .hero-wrap { padding: clamp(2rem, 4vw, 3.4rem); }
+                #sideNav .navbar-nav { padding:.55rem 0 .25rem; }
+                #sideNav .nav-link { padding:.48rem .4rem !important; font-size:.82rem; }
+                .edu-grid, .pub-grid, .award-grid { grid-template-columns:1fr 1fr; }
             }
-            @media (max-width: 991.98px) {
-                body { padding-top: 54px !important; }
+            @media (max-width:991.98px) {
                 .resume-section { padding:4rem 1.25rem !important; }
-                .hero-wrap { border-radius:20px; padding:2rem 1.35rem; }
-                .edu-grid, .pub-grid, .current-grid, .award-grid, .skills-grid, .teaching-grid { grid-template-columns:1fr; }
+                .hero-wrap { border-radius:16px; padding:1.8rem 1.3rem; }
+                .edu-grid, .pub-grid, .current-grid, .award-grid, .skills-grid, .teaching-grid, .talks-grid { grid-template-columns:1fr; }
                 .metric-grid { grid-template-columns:1fr 1fr; }
-                .cv-choice-grid, .cv-context-strip { grid-template-columns:1fr; }
+                .cv-context-strip { grid-template-columns:1fr; }
                 .cv-viewer iframe { min-height:600px; height:76vh; }
-                .experience-top { flex-direction:column; gap:.8rem; }
+                .experience-top { flex-direction:column; gap:.75rem; }
                 .experience-date { align-self:flex-start; }
-                #projects .resume-section-content > .d-flex { padding:1.15rem; }
-                #projects .resume-section-content > .d-flex .flex-shrink-0 { align-self:flex-start; }
-                .section-head { margin-bottom:1.5rem; }
+                .site-footer-inner { flex-direction:column; align-items:flex-start; }
             }
-            .cv-mobile-note { display:none; }
-            @media (max-width: 680px) {
+            @media (max-width:680px) {
                 .cv-viewer iframe { display:none; }
-                .cv-mobile-note { display:block; background:#fff; color:#40556b; border-radius:12px; padding:1rem; text-align:center; }
+                .cv-mobile-note { display:block; background:#fff; color:#40556b; border-radius:9px; padding:1rem; text-align:center; }
             }
-            @media (max-width: 520px) {
+            @media (max-width:520px) {
                 body { padding-top:60px !important; }
-                #sideNav { min-height:60px !important; padding:.55rem .9rem !important; }
-                #sideNav .navbar-brand .d-lg-none { font-size:.9rem; max-width:240px; overflow:hidden; text-overflow:ellipsis; }
-                .resume-section { padding:3.25rem .95rem !important; }
-                .hero-wrap { padding:1.45rem 1.05rem; border-radius:16px; }
-                .hero-name { font-size:2.55rem; line-height:.96; }
-                .hero-role { font-size:1.05rem; }
-                .hero-copy { font-size:.98rem; line-height:1.65; }
+                #sideNav { min-height:60px !important; padding:.55rem .85rem !important; }
+                #sideNav .navbar-brand .d-lg-none { font-size:.86rem; max-width:230px; overflow:hidden; text-overflow:ellipsis; }
+                .resume-section { padding:3.3rem .9rem !important; }
+                .hero-wrap { padding:1.4rem 1rem; }
+                .hero-name { font-size:2.65rem; }
+                .hero-role { font-size:1rem; }
+                .hero-copy { font-size:.95rem; line-height:1.72; }
                 .metric-grid { grid-template-columns:1fr; }
                 .metric-card { min-height:auto; }
+                .profile-mini img { width:62px; height:62px; }
                 .section-title { font-size:2rem; }
-                .surface-card, .experience-card, .award-card, .skill-card, .detail-card { border-radius:14px; }
-                .cv-shell { padding:1.05rem; border-radius:18px; }
-                .cv-viewer { padding:.55rem; }
-                .cv-viewer iframe { min-height:520px; height:70vh; }
-                .cv-choice-actions { align-items:flex-start; }
-                .tag-chip { font-size:.78rem; padding:.42rem .68rem; }
+                .cv-shell { padding:1rem; border-radius:14px; }
+                .tag-chip { font-size:.74rem; }
             }
         </style>
     </head>
@@ -201,7 +320,7 @@
         <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Md Hasebul Hasan</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/hasebul.jpg" alt="..." /></span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/hasebul.jpg" alt="Md Hasebul Hasan" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -214,8 +333,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#teaching">Teaching Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#activities">Activities</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#talks">Talks &amp; Presentations</a></li>
                 </ul>
             </div>
         </nav>
@@ -228,7 +346,7 @@
                         <div class="row g-5 align-items-center position-relative" style="z-index:1;">
                             <div class="col-xl-8">
                                 <div class="section-kicker mb-3">PhD Researcher &middot; Agentic AI &middot; NLP / LLMs &middot; ML Systems</div>
-                                <h1 class="hero-name mb-3">Md Hasebul Hasan <span class="text-primary">Shawon</span></h1>
+                                <h1 class="hero-name mb-3">Md Hasebul Hasan</h1>
                                 <div class="hero-role mb-3">PhD Researcher at UT Arlington · Large Language Models · Human-AI Interaction · LLM Systems</div>
                                 <div class="text-muted mb-4">Arlington, TX · <a href="mailto:mdhasebul.hasan@uta.edu">mdhasebul.hasan@uta.edu</a></div>
                                 <p class="hero-copy mb-4">
@@ -252,7 +370,15 @@
                             </div>
                             <div class="col-xl-4">
                                 <div class="internship-box mb-3">
-                                    <div class="small text-uppercase fw-bold mb-2" style="letter-spacing:.11em;">Open to 2027 Research Internships</div>
+                                    <div class="profile-mini">
+                                        <img src="assets/img/hasebul.jpg" alt="Portrait of Md Hasebul Hasan" />
+                                        <div>
+                                            <div class="availability-pill">Open to 2027 research internships</div>
+                                            <div class="profile-mini-name">Md Hasebul Hasan</div>
+                                            <div class="profile-mini-role">Computer Science PhD Researcher · UT Arlington</div>
+                                        </div>
+                                    </div>
+                                    <div class="small text-uppercase fw-bold mb-2" style="letter-spacing:.11em;">Research focus</div>
                                     <div class="fs-5 fw-bold mb-2">NLP · LLMs · LLM Systems / Architecture</div>
                                     <div class="small">Targeting research and applied AI roles involving agentic systems, trustworthy LLMs, reasoning and evaluation, inference efficiency, model optimization, and human-centered AI.</div>
                                 </div>
@@ -580,197 +706,51 @@
 
             <hr class="m-0" />
 
-            <!-- Projects-->
-            <section class="resume-section" id="projects">
+            <!-- Selected Talks & Conference Presentations -->
+            <section class="resume-section" id="talks">
                 <div class="resume-section-content">
                     <div class="section-head">
-                        <div class="section-kicker mb-2">Selected builds</div>
-                        <h2 class="section-title">Selected Projects</h2>
-                        <p class="section-lead">A selection of machine learning, security, networking, and software engineering projects.</p>
+                        <div class="section-kicker mb-2">Research communication</div>
+                        <h2 class="section-title">Selected Talks &amp; Conference Presentations</h2>
+                        <p class="section-lead">Selected peer-reviewed research presented at international conferences in natural language processing and trustworthy machine learning.</p>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0" style="color: #003f88;"><a href="https://drive.google.com/file/d/1Bepb5tXKr4rlEGXWOmYt5U8CVVtgHyLU/view?usp=sharing">Enhance Partial Dominant Pruning for AD HOC Wireless Networks</a></h3>
-                            <!-- <div class="subheading mb-3">eSystems Research and Development (eSRD) Lab, Department of CSE, BUET</div> -->
-                            <ul>
-                                <li> Feature: AD HOC Networks, Dominant Pruning </li>
-                                <li>This project explores Enhanced Partial Dominant Pruning (EPDP), an enhancement proposed to address issues with Partial Dominant Pruning.
-                                    We evaluate its performance and analyze its potential for further improvement. </li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">November 2023</span></div>
+                    <div class="talks-grid">
+                        <article class="surface-card talk-card">
+                            <div class="talk-card-top">
+                                <div class="talk-icon"><i class="fas fa-microphone"></i></div>
+                                <span class="date-pill">2026</span>
+                            </div>
+                            <div class="talk-venue">EACL 2026 · Conference Presentation</div>
+                            <h3>MapAgent: A Hierarchical Agent for Geospatial Reasoning with Dynamic Map Tool Integration</h3>
+                            <p class="talk-meta">Presented first-author research at the <b>Findings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2026)</b>.</p>
+                            <a class="talk-link" href="https://arxiv.org/pdf/2509.05933" target="_blank" rel="noopener">View paper <i class="fas fa-arrow-up-right-from-square ms-1"></i></a>
+                        </article>
+                        <article class="surface-card talk-card">
+                            <div class="talk-card-top">
+                                <div class="talk-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                                <span class="date-pill">2024</span>
+                            </div>
+                            <div class="talk-venue">IEEE COMPSAC 2024 · Conference Presentation</div>
+                            <h3>GuardFL: Detection and Removal of Malicious Clients Through Majority Consensus</h3>
+                            <p class="talk-meta">Presented first-author research at the <b>IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC 2024)</b>.</p>
+                            <a class="talk-link" href="https://ieeexplore.ieee.org/abstract/document/10633548" target="_blank" rel="noopener">View paper <i class="fas fa-arrow-up-right-from-square ms-1"></i></a>
+                        </article>
                     </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0" style="color: #003f88;"><a href="https://drive.google.com/file/d/1OuTvSFZmUIi99tOu-19lelceDrLjmJCA/view">Attacking and Defending ML Application on Public Cloud</a></h3>
-                            <!-- <div class="subheading mb-3">BWCSE (Bangladeshi Women in Computer Science and Engineering)</div> -->
-                            <ul>
-                                <li>Feature: Cloud security, AWS EC2, adversarial attack, CNN</li>
-                                <li>This project proposes a framework to protect neural network classifiers from adversarial examples using detector and reformer networks,
-                                    randomness, and diversity. It effectively addresses challenges in defending against advanced attacks without sacrificing the false positive
-                                    rate on normal examples.
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2023</span></div>
-                    </div>
-
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0" style="color: #003f88;"><a href="https://drive.google.com/file/d/17kl7g9iR-GxPmkSSqqYa45jiIM8AgsQs/view?usp=sharing">Classifying DNA Sequence</a></h3>
-                            <!-- <div class="subheading mb-3">Badhan – BUET Zone </div> -->
-                            <ul>
-                                <li>Feature: Bioinformatics, Machine Learning</li>
-                                <li>This project uses machine learning and deep neural networks to classify short E. Coli DNA sequences by employing various classifiers. The
-                                    dataset consists of 106 DNA sequences, each with 57 nucleotides, sourced from the UCI machine learning repository.</li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2023</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0" style="color: #003f88;"><a href="https://drive.google.com/file/d/1l8FLRM6tsICXUne_eI332aLyRMBMK8SN/view?usp=sharing">Cluster Based Influence Detection in Worldwide Trade Data</a></h3>
-                            <ul>
-                                <li>Feature: Network Science, NetworkX,
-                                    </li>
-                                <li>In this project, we use centrality measures and DeepWalk for clustering to identify the most influential country in separate communities of a
-                                    network. We cluster communities based on similar economic trends using international trade data and calculate the influence measure for each
-                                    country in each cluster using embeddings. We construct a graph using Gephi software and utilize NetworkX package to rank the countries from
-                                    each cluster and identify the most influential countries.</li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">November 2022</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0" style="color: #003f88;"><a href="https://github.com/Hasebul/Food_Image_Classification">Food Image Classification</a></h3>
-                            <ul>
-                                <li>Feature: Deep learning, Transfer learning, CNN, Resnet50
-                                    </li>
-                                <li> I along with my partner build a CNN model to classify the food images into 10 classes. We train our model using 10k food images. We also
-                                    fine-tune some pre-trained models (Resnet50, Efficientnet B7, Inception V3) and show their performance statistics.</li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">January 2022</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0" style="color: #003f88;"><a href="https://github.com/Hasebul/CNN-from-scratch/tree/main">Convolution Neural Network(CNN) From SCRATCH</a></h3>
-                            <ul>
-                                <li>Feature: Deep learning, CNN
-                                    </li>
-                                <li> Implemented a convolutional neural network from scratch with python for an image classification task with support for variable number of layers, dimensions as well as batching.</li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">January 2022</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0" style="color: #003f88;"><a href="https://github.com/Hasebul/Hidden-Markov-Models-HMM-">HIDDEN MARKOV MODELS</a></h3>
-                            <ul>
-                                <li>Feature:Python, Probabilty
-                                    </li>
-                                <li> Hidden Markov Model (HMM) implemented with the Viterbi algorithm.</li>
-                                <li> The parameters of the model was estimated with Baulm-Welch Algorithm</li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">January 2022</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0" style="color: #003f88;">Security Project</h3>
-                            <ul>
-                                <li><b><a href="https://github.com/Hasebul/Advance-Encryption-Standard">AES standard implementation:</a></b> An implementation of AES by python from scratch. This tool can
-                                    encrypt as well as decrypt texts and files of any kind.
-                                    </li>
-                                <li><b><a href="https://github.com/Hasebul/Cross-Site-Scripting-XSS-Attack">Cross-Site Scripting (XSS) Attack:</a></b> Used a web application named Elgg provided in a pre-built Ubuntu VM image and exploited XSS vulnerability to launch an XSS attack on the modified Elgg.</li>
-                                <li><b><a href="https://github.com/Hasebul/Dos-Attack-ON-Dns-Server-using-ip-Spoofing-">Dos-Attack-ON-Dns-Server-using-ip-Spoofing:</a></b> Here I implement Dos attack on Dns server (using ip spoofing) . For this attack I need three machines. One machine works as Dns server and others are the attacker machine and the normal user machine .Then From the attacker machine I execute a c code which performs a query flood attack to our DNS server . This dos attack affects our DNS server.DNS server stops to receive requests .So normal user can’t visit there requested page because the ip address of their requested page can't be translated.</li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">June 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0" style="color: #003f88;"><a href="https://github.com/Hasebul/Amader_Internet_Backend_Update">Amader Internet</a></h3>
-                            <ul>
-                                <li>Features: Software Development, Vue.js, Node.js, Mongodb
-                                    </li>
-                                <li> It's basically a website built for internet users, ISP, and NTTN in Bangladesh motivated by the info Sarkar phase-3 project. This website was
-                                    built along with two of my partners using Vue-js as front-end and Node-js as back-end.</li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Feburary 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0" style="color: #003f88;"><a href="https://github.com/Hasebul/Ghost_hunter_AI_Project">Classical AI Projects: Ghost Hunter</a></h3>
-                            <ul>
-                                <li><b>AI-game-LinesOfAction:</b> Used minimax algorithm with alpha-beta pruning with suitable heuristics to
-                                    create and agent which is able to play the board game. Can also be played in multiplayer mode.
-                                    </li>
-                                <li><b>Ghost Hunting:</b> Modeled Ghost Hunting problem using HMM and Particle Filtering.</li>
-                                <li><b>Latin Square CSP Solver:</b> Used several CSP solving algorithms with heuristics to solve latin square.</li>
-                                <li><b>Optimal Exam Scheduling with local search:</b> Exam scheduling problem was solved by local search with appropriate heuristics.</li>
-                                <li><b>Solving n-puzzle by A-star search:</b> Solved n-puzzle problem with A-star search by using two heuristics (the misplaced tiles an the Manhattan distance).</li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2020</span></div>
-                    </div>
-
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0" style="color: #003f88;"><a href="https://github.com/Hasebul/Online-Service-Platform">Online Service Platform</a></h3>
-                            <!-- <div class="subheading mb-3">eSystems Research and Development (eSRD) Lab, Department of CSE, BUET</div> -->
-                            <ul>
-                                <li> Feature: Java, Postgresql, relational database, Java Fx </li>
-                                <li>This desktop application was built using JavaFX for UI and Postgresql for the database. Here we mimic ShebaXYZ. </li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">April 2019</span></div>
-                    </div>
-
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0" style="color: #003f88;"><a href="https://github.com/Hasebul/Hospital_Management_System">Hospital Management System</a></h3>
-                            <!-- <div class="subheading mb-3">eSystems Research and Development (eSRD) Lab, Department of CSE, BUET</div> -->
-                            <ul>
-                                <li> Feature: Java, Networking, Java Fx, Multi-Threading </li>
-                                <li>It is a management system that provides many functionalities for the patients, doctors, and authorities.
-                                    Based on multi-threaded and networking, this software provides access for many patients and doctors at a time. </li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">May 2018</span></div>
-                    </div>
-
-                    <p>Please feel free to visit my <a href="https://github.com/Hasebul">github</a> profile for more projects.</p>
-
                 </div>
             </section>
-
-            <hr class="m-0" />
-
-            <!-- Activities-->
-            <section class="resume-section" id="activities">
-                <div class="resume-section-content">
-<div class="section-head">
-                        <div class="section-kicker mb-2">Community &amp; competition</div>
-                    <article class="surface-card activity-card">
-                        <h3 class="mb-3" style="color:var(--ink); font-size:1.15rem;">Programming Competitions</h3>
-                        <ul>
-                            <li><b>ACM ICPC Asia Dhaka Regional Contest</b> - 2018, 2019</li>
-                            <li><b>NSysS Programming Competition</b> - 2019</li>
-                            <li><b>Inter BUET Programming Competition</b> - 2018</li>
-                        </ul>
-                    </article>
-                </div>
-            </section>
-
-            <hr class="m-0" />
         </div>
+
+        <footer class="site-footer">
+            <div class="site-footer-inner">
+                <div><strong>Md Hasebul Hasan</strong><div class="small">Computer Science PhD Researcher · UT Arlington</div></div>
+                <div class="footer-links">
+                    <a href="mailto:mdhasebul.hasan@uta.edu">Email</a>
+                    <a href="https://scholar.google.com/citations?user=f8HAI_MAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+                    <a href="https://github.com/Hasebul" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://www.linkedin.com/in/hasebul-hasan-shawon-a618091aa/" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+            </div>
+        </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
