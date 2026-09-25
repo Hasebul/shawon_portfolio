@@ -1,0 +1,1847 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <meta
+        name="description"
+        content="Computer Science PhD researcher at UT Arlington working on Agentic AI, NLP, Large Language Models, trustworthy AI, and efficient LLM systems. First-author NeurIPS 2026 Evaluations and Datasets poster, ICML 2025 Spotlight co-author, EACL 2026 Findings first author, and former IQVIA ML Engineer with 3+ years of industry experience. Seeking 2027 research and applied AI internships."
+    />
+
+    <meta name="author" content="Md Hasebul Hasan" />
+
+    <title>Md Hasebul Hasan | NLP & LLM Researcher</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/img/ai.png" />
+
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){
+                (c[a].q=c[a].q||[]).push(arguments)
+            };
+            t=l.createElement(r);
+            t.async=1;
+            t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];
+            y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "ykaazt948s");
+    </script>
+
+
+    <!-- Google Fonts: Inter + Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Academicons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    >
+
+    <!-- Font Awesome icons -->
+    <script
+        src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
+        crossorigin="anonymous">
+    </script>
+
+    <!-- Core theme CSS (includes Bootstrap) -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <style>
+        :root {
+            --ink: #0b1f33;
+            --ink-2: #19344e;
+            --muted: #64748b;
+            --accent: #0b63ce;
+            --accent-dark: #084b9a;
+            --accent-2: #0f9fa5;
+            --soft: #f6f8fb;
+            --soft-blue: #eef5fc;
+            --line: #dce5ee;
+            --nav: rgba(8, 24, 40, .97);
+            --shadow-sm: 0 8px 24px rgba(12, 36, 58, .055);
+            --shadow-md: 0 18px 50px rgba(12, 36, 58, .10);
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 88px;
+        }
+
+        body {
+            color: var(--ink-2);
+            background: #fff;
+            font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            font-size: 16px;
+            line-height: 1.7;
+            letter-spacing: -.006em;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            text-transform: none !important;
+            letter-spacing: -.025em;
+        }
+
+        a {
+            color: var(--accent-dark);
+            text-decoration-thickness: .07em;
+            text-underline-offset: .18em;
+        }
+
+        a:hover {
+            color: var(--accent);
+        }
+
+        .text-primary {
+            color: var(--accent) !important;
+        }
+
+        .bg-primary {
+            background-color: var(--accent) !important;
+        }
+
+        .btn {
+            border-radius: 9px;
+            font-weight: 700;
+            letter-spacing: -.01em;
+            box-shadow: none !important;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-dark);
+            border-color: var(--accent-dark);
+        }
+
+        .btn-outline-dark {
+            color: var(--ink);
+            border-color: #9fb0c1;
+            background: #fff;
+        }
+
+        .btn-outline-dark:hover {
+            background: var(--ink);
+            border-color: var(--ink);
+        }
+
+        .container-fluid > hr {
+            display: none;
+        }
+
+        .resume-section {
+            min-height: auto !important;
+            max-width: none !important;
+            padding: clamp(4.5rem, 7vw, 7rem) 4vw !important;
+            border-bottom: 1px solid #edf1f5;
+        }
+
+        .resume-section-content {
+            width: 100%;
+            max-width: 1180px !important;
+            margin: 0 auto;
+        }
+
+        #education,
+        #cv,
+        #skills,
+        #talks {
+            background: var(--soft);
+        }
+
+        .section-head {
+            margin-bottom: 2rem;
+        }
+
+        .section-kicker {
+            display: inline-flex;
+            align-items: center;
+            gap: .55rem;
+            font-size: .72rem;
+            text-transform: uppercase;
+            letter-spacing: .17em;
+            font-weight: 800;
+            color: var(--accent);
+        }
+
+        .section-kicker::before {
+            content: "";
+            width: 24px;
+            height: 2px;
+            border-radius: 999px;
+            background: var(--accent);
+        }
+
+        .section-title {
+            font-size: clamp(2rem, 3.2vw, 2.8rem);
+            color: var(--ink) !important;
+            line-height: 1.12;
+            margin-bottom: .65rem;
+        }
+
+        .section-lead {
+            color: var(--muted);
+            max-width: 800px;
+            line-height: 1.7;
+        }
+
+        .surface-card {
+            position: relative;
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 14px;
+            box-shadow: var(--shadow-sm);
+            transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+        }
+
+        .surface-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+            border-color: #c4d4e2;
+        }
+
+        /* Navigation */
+
+        #sideNav {
+            background: var(--nav) !important;
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            border-bottom: 1px solid rgba(255,255,255,.08);
+            box-shadow: 0 8px 28px rgba(5, 20, 34, .14);
+        }
+
+        #sideNav .navbar-brand {
+            font-family: "Manrope", sans-serif;
+            font-weight: 800;
+            letter-spacing: -.02em;
+        }
+
+        #sideNav .nav-link {
+            color: rgba(255,255,255,.72) !important;
+            font-family: "Inter", sans-serif;
+            font-weight: 600 !important;
+            text-transform: none !important;
+            letter-spacing: -.01em !important;
+            border-radius: 8px;
+            transition: color .15s ease, background .15s ease;
+        }
+
+        #sideNav .nav-link:hover,
+        #sideNav .nav-link.active {
+            color: #fff !important;
+            background: rgba(255,255,255,.08);
+        }
+
+        /* Hero */
+
+        #about {
+            padding-top: clamp(3rem, 5vw, 4.5rem) !important;
+            background: linear-gradient(180deg, #fbfcfe 0%, #fff 82%);
+        }
+
+        .hero-wrap {
+            position: relative;
+            overflow: hidden;
+            border-radius: 22px;
+            background:
+                radial-gradient(circle at 90% 8%, rgba(11, 99, 206, .12), transparent 28%),
+                radial-gradient(circle at 14% 90%, rgba(15, 159, 165, .08), transparent 32%),
+                #fff;
+            border: 1px solid var(--line);
+            box-shadow: 0 28px 80px rgba(12,36,58,.08);
+            padding: clamp(2rem, 4vw, 4rem);
+        }
+
+        .hero-wrap::before {
+            content: "";
+            position: absolute;
+            inset: 0 auto 0 0;
+            width: 4px;
+            background: linear-gradient(180deg, var(--accent), var(--accent-2));
+        }
+
+        .hero-name {
+            font-size: clamp(3.05rem, 6vw, 5rem);
+            line-height: .98;
+            color: var(--ink);
+            letter-spacing: -.055em;
+            margin-bottom: 1.1rem !important;
+        }
+
+        .hero-role {
+            font-size: clamp(1.05rem, 1.9vw, 1.35rem);
+            font-weight: 700;
+            color: var(--accent-dark);
+            line-height: 1.45;
+        }
+
+        .hero-copy {
+            font-size: 1.02rem;
+            line-height: 1.82;
+            color: #40566d;
+            max-width: 800px;
+        }
+
+        .hero-copy b {
+            color: var(--ink-2);
+        }
+
+        .tag-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .5rem;
+        }
+
+        .tag-chip {
+            border: 1px solid #d4e2ee;
+            background: #f8fbfe;
+            color: #2f506d;
+            border-radius: 999px;
+            padding: .42rem .72rem;
+            font-weight: 700;
+            font-size: .78rem;
+        }
+
+        .internship-box {
+            background: linear-gradient(150deg, #0b2239 0%, #123e65 100%);
+            color: #fff;
+            border-radius: 16px;
+            padding: 1.25rem;
+            box-shadow: 0 18px 42px rgba(9, 37, 63, .18);
+        }
+
+        .profile-mini {
+            display: flex;
+            align-items: center;
+            gap: .85rem;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid rgba(255,255,255,.14);
+        }
+
+        .profile-mini img {
+            width: 72px;
+            height: 72px;
+            border-radius: 14px;
+            object-fit: cover;
+            object-position: center top;
+            border: 2px solid rgba(255,255,255,.24);
+        }
+
+        .profile-mini-name {
+            font-family: "Manrope", sans-serif;
+            font-size: 1rem;
+            font-weight: 800;
+            color: #fff;
+            line-height: 1.25;
+        }
+
+        .profile-mini-role {
+            color: #bcd2e6;
+            font-size: .78rem;
+            line-height: 1.4;
+            margin-top: .18rem;
+        }
+
+        .availability-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: .38rem;
+            font-size: .66rem;
+            text-transform: uppercase;
+            letter-spacing: .08em;
+            font-weight: 800;
+            color: #bfeff1;
+            margin-bottom: .35rem;
+        }
+
+        .availability-pill::before {
+            content: "";
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #4ade80;
+            box-shadow: 0 0 0 4px rgba(74,222,128,.12);
+        }
+
+        .internship-box .small {
+            color: #c7d8e7 !important;
+        }
+
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0,1fr));
+            gap: .75rem;
+        }
+
+        .metric-card {
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 1rem;
+            min-height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .metric-value {
+            font-family: "Manrope", sans-serif;
+            font-size: 1.05rem;
+            font-weight: 800;
+            color: var(--accent-dark);
+        }
+
+        .metric-label {
+            color: var(--muted);
+            font-size: .78rem;
+            line-height: 1.45;
+            margin-top: .22rem;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: .55rem;
+            flex-wrap: wrap;
+        }
+
+        .social-icons .social-icon {
+            width: 44px;
+            height: 44px;
+            margin: 0 !important;
+            border-radius: 10px;
+            background: #fff;
+            color: var(--ink-2);
+            border: 1px solid var(--line);
+            font-size: 1.05rem;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .social-icons .social-icon:hover {
+            background: var(--ink);
+            border-color: var(--ink);
+            color: #fff;
+            transform: translateY(-1px);
+        }
+
+        /* News */
+
+        #news {
+            background: #fff;
+        }
+
+        .news-shell {
+            position: relative;
+            overflow: hidden;
+            border-radius: 18px;
+            padding: clamp(1.6rem, 3vw, 2.4rem);
+            background: linear-gradient(180deg, #f8fbff 0%, #f3f7fb 100%);
+            color: var(--ink-2);
+            border: 1px solid var(--line);
+            border-left: 5px solid var(--accent);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .news-shell::after {
+            content: "";
+            position: absolute;
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            right: -95px;
+            bottom: -105px;
+            border: 28px solid rgba(11, 99, 206, .045);
+        }
+
+        .news-kicker {
+            display: inline-flex;
+            align-items: center;
+            gap: .5rem;
+            padding: .38rem .72rem;
+            border: 1px solid #cfe0f3;
+            background: var(--soft-blue);
+            border-radius: 999px;
+            color: var(--accent-dark);
+            font-size: .72rem;
+            font-weight: 800;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+        }
+
+        .news-kicker .pulse-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--accent-2);
+            box-shadow: 0 0 0 4px rgba(15, 159, 165, .10);
+        }
+
+        .news-title {
+            color: var(--ink) !important;
+            font-size: clamp(1.65rem, 3vw, 2.45rem);
+            line-height: 1.2;
+            max-width: 900px;
+            margin: 1rem 0 .8rem;
+        }
+
+        .news-copy {
+            color: var(--muted);
+            max-width: 900px;
+            font-size: .98rem;
+            line-height: 1.75;
+            margin-bottom: 1.15rem;
+        }
+
+        .news-stat-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .55rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .news-stat {
+            display: inline-flex;
+            align-items: center;
+            gap: .45rem;
+            padding: .5rem .72rem;
+            border-radius: 10px;
+            background: #fff;
+            border: 1px solid var(--line);
+            color: var(--ink-2);
+            font-size: .78rem;
+            font-weight: 700;
+        }
+
+        .news-stat i,
+        .news-stat svg {
+            color: var(--accent);
+        }
+
+        .news-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .65rem;
+        }
+
+        .btn-news-primary {
+            background: var(--accent);
+            color: #fff;
+            border: 1px solid var(--accent);
+        }
+
+        .btn-news-primary:hover {
+            background: var(--accent-dark);
+            color: #fff;
+            border-color: var(--accent-dark);
+        }
+
+        .btn-news-secondary {
+            background: #fff;
+            color: var(--ink);
+            border: 1px solid #9fb0c1;
+        }
+
+        .btn-news-secondary:hover {
+            background: var(--ink);
+            color: #fff;
+            border-color: var(--ink);
+        }
+
+        /* Education */
+
+        .edu-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0,1fr));
+            gap: 1rem;
+        }
+
+        .edu-card {
+            padding: 1.35rem;
+            overflow: hidden;
+        }
+
+        .edu-card::after {
+            content: "";
+            position: absolute;
+            right: -32px;
+            bottom: -32px;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: var(--soft-blue);
+        }
+
+        .edu-card .school-logo {
+            width: 52px;
+            height: 52px;
+            object-fit: contain;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .edu-card h3 {
+            color: var(--ink) !important;
+            font-size: 1.15rem;
+            line-height: 1.35;
+        }
+
+        .date-pill {
+            display: inline-block;
+            border-radius: 999px;
+            background: #edf4fb;
+            color: #245a86;
+            padding: .32rem .62rem;
+            font-size: .72rem;
+            font-weight: 800;
+        }
+
+        /* Publications */
+
+        .pub-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0,1fr));
+            gap: 1rem;
+            margin-bottom: 2.2rem;
+        }
+
+        .pub-card {
+            padding: 1.35rem;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .pub-card::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg,var(--accent),var(--accent-2));
+        }
+
+        .pub-card .badge {
+            border-radius: 999px;
+            font-size: .68rem;
+            letter-spacing: .02em;
+            padding: .44rem .62rem;
+        }
+
+        .pub-card h3 {
+            color: var(--ink);
+            font-size: 1.12rem;
+            line-height: 1.38;
+            margin-bottom: .85rem;
+        }
+
+
+        .pub-card.featured-neurips {
+            grid-column: 1 / -1;
+            padding: clamp(1.35rem, 2.6vw, 2rem);
+            border: 1px solid #c7d2fe;
+            background:
+                radial-gradient(circle at 100% 0%, rgba(99, 102, 241, .14), transparent 28%),
+                linear-gradient(135deg, #ffffff 0%, #f7f8ff 100%);
+            box-shadow: 0 18px 48px rgba(79, 70, 229, .11);
+        }
+
+        .pub-card.featured-neurips::before {
+            height: 5px;
+            background: linear-gradient(90deg, #4f46e5, #0ea5e9, #14b8a6);
+        }
+
+        .featured-pub-layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1.65fr) minmax(240px, .7fr);
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .neurips-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: .45rem;
+            padding: .48rem .7rem;
+            border-radius: 999px;
+            background: #312e81;
+            color: #fff;
+            font-size: .69rem;
+            font-weight: 800;
+            letter-spacing: .04em;
+        }
+
+        .featured-pub-title {
+            font-size: clamp(1.3rem, 2.1vw, 1.7rem) !important;
+            margin-top: .9rem;
+        }
+
+        .featured-pub-stats {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0,1fr));
+            gap: .6rem;
+        }
+
+        .featured-pub-stat {
+            border: 1px solid #dbe3ff;
+            background: rgba(255,255,255,.82);
+            border-radius: 12px;
+            padding: .85rem;
+        }
+
+        .featured-pub-stat strong {
+            display: block;
+            color: #312e81;
+            font-family: "Manrope", sans-serif;
+            font-size: 1rem;
+            line-height: 1.2;
+        }
+
+        .featured-pub-stat span {
+            display: block;
+            margin-top: .2rem;
+            color: var(--muted);
+            font-size: .72rem;
+            line-height: 1.35;
+        }
+
+        .pub-meta {
+            color: var(--muted);
+            font-size: .84rem;
+            line-height: 1.6;
+        }
+
+        .current-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0,1fr));
+            gap: 1rem;
+        }
+
+        .current-card {
+            padding: 1.15rem 1.25rem;
+            border-left: 3px solid var(--accent-2);
+            box-shadow: none;
+        }
+
+        .current-card b {
+            color: var(--ink);
+        }
+
+        /* CV */
+
+        .cv-shell {
+            background: linear-gradient(145deg,#0a2035,#123f64);
+            color: #fff;
+            border-radius: 18px;
+            padding: clamp(1.4rem,2.6vw,2.2rem);
+            box-shadow: 0 24px 65px rgba(8,32,53,.18);
+        }
+
+        .cv-shell h2 {
+            color: #fff !important;
+        }
+
+        .cv-shell .section-kicker {
+            color: #87d8dc !important;
+        }
+
+        .cv-shell .section-kicker::before {
+            background: #87d8dc;
+        }
+
+        .btn-soft {
+            background: #fff;
+            color: #0d2744;
+            border: 1px solid #fff;
+            font-weight: 800;
+        }
+
+        .btn-soft:hover {
+            background: #e7f2fb;
+            color: #0d2744;
+        }
+
+        .cv-context-strip {
+            display: grid;
+            grid-template-columns: repeat(3,minmax(0,1fr));
+            gap: .75rem;
+            margin-top: 1.25rem;
+        }
+
+        .cv-context-item {
+            background: rgba(255,255,255,.06);
+            border: 1px solid rgba(255,255,255,.13);
+            border-radius: 10px;
+            padding: .82rem .95rem;
+        }
+
+        .cv-context-item b {
+            display: block;
+            color: #fff;
+            font-size: .82rem;
+            margin-bottom: .14rem;
+        }
+
+        .cv-context-item span {
+            color: #bfd1e0;
+            font-size: .76rem;
+            line-height: 1.45;
+            display: block;
+        }
+
+        .cv-preview-heading {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            margin-top: 1.25rem;
+            color: #d7e7f4;
+            font-size: .82rem;
+        }
+
+        .cv-preview-heading strong {
+            color: #fff;
+        }
+
+        .cv-viewer {
+            background: #e9eff5;
+            padding: .8rem;
+            border-radius: 12px;
+            margin-top: .75rem;
+        }
+
+        .cv-viewer iframe {
+            display: block;
+            width: 100%;
+            height: min(1180px,88vh);
+            min-height: 780px;
+            border: 0;
+            border-radius: 8px;
+            background: white;
+        }
+
+        .cv-mobile-note {
+            display: none;
+        }
+
+        /* Experience & teaching */
+
+        .experience-card {
+            padding: clamp(1.2rem,2vw,1.6rem);
+        }
+
+        .experience-logo {
+            width: 52px;
+            height: 52px;
+            object-fit: contain;
+            flex: 0 0 auto;
+            border-radius: 9px;
+        }
+
+        .experience-top {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .experience-identity {
+            display: flex;
+            align-items: center;
+            gap: .9rem;
+            min-width: 0;
+        }
+
+        .experience-identity h3 {
+            font-size: 1.12rem !important;
+            line-height: 1.35;
+        }
+
+        .experience-date {
+            flex: 0 0 auto;
+        }
+
+        .experience-card ul {
+            margin-bottom: 0;
+            padding-left: 1.2rem;
+        }
+
+        .experience-card li + li {
+            margin-top: .48rem;
+        }
+
+        .teaching-grid {
+            display: grid;
+            grid-template-columns: repeat(2,minmax(0,1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .detail-card {
+            padding: 1.2rem;
+        }
+
+        .detail-card h3 {
+            color: var(--ink) !important;
+            font-size: 1rem;
+            margin-bottom: .8rem;
+        }
+
+        .detail-card ul {
+            margin-bottom: 0;
+            padding-left: 1.12rem;
+            font-size: .9rem;
+        }
+
+        .detail-card li + li {
+            margin-top: .34rem;
+        }
+
+        /* Awards & skills */
+
+        .award-note {
+            background: #f4f8fc;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: .95rem 1.05rem;
+            color: #496176;
+            margin-bottom: 1rem;
+            font-size: .9rem;
+        }
+
+        .award-grid {
+            display: grid;
+            grid-template-columns: repeat(3,minmax(0,1fr));
+            gap: 1rem;
+        }
+
+        .award-card {
+            padding: 1.2rem;
+            display: flex;
+            flex-direction: column;
+            min-height: 178px;
+        }
+
+        .award-icon {
+            width: 38px;
+            height: 38px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            background: #edf4fb;
+            color: var(--accent);
+            margin-bottom: .75rem;
+        }
+
+        .award-card h3 {
+            color: var(--ink) !important;
+            font-size: 1rem;
+            line-height: 1.35;
+            margin-bottom: .4rem;
+        }
+
+        .award-type {
+            text-transform: uppercase;
+            letter-spacing: .09em;
+            font-size: .64rem;
+            font-weight: 800;
+            color: var(--accent);
+            margin-bottom: .3rem;
+        }
+
+        .award-card p {
+            color: var(--muted);
+            font-size: .84rem;
+            line-height: 1.55;
+            margin-bottom: .7rem;
+        }
+
+        .award-card .date-pill {
+            margin-top: auto;
+            align-self: flex-start;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2,minmax(0,1fr));
+            gap: 1rem;
+        }
+
+        .skill-card {
+            padding: 1.2rem;
+            box-shadow: none;
+        }
+
+        .skill-card h3 {
+            color: var(--ink) !important;
+            font-size: 1rem;
+            margin-bottom: .45rem;
+        }
+
+        .skill-card p {
+            color: #4d6175;
+            margin-bottom: 0;
+            line-height: 1.6;
+            font-size: .9rem;
+        }
+
+        /* Selected talks & conference presentations */
+
+        .talks-grid {
+            display: grid;
+            grid-template-columns: repeat(2,minmax(0,1fr));
+            gap: 1rem;
+        }
+
+        .talk-card {
+            padding: 1.35rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .talk-card::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: var(--accent);
+        }
+
+        .talk-card-top {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 1rem;
+            margin-bottom: .85rem;
+        }
+
+        .talk-icon {
+            width: 42px;
+            height: 42px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 11px;
+            background: #edf4fb;
+            color: var(--accent);
+            flex: 0 0 auto;
+        }
+
+        .talk-card h3 {
+            color: var(--ink) !important;
+            font-size: 1.05rem;
+            line-height: 1.45;
+            margin-bottom: .55rem;
+        }
+
+        .talk-venue {
+            font-weight: 750;
+            color: #294c6b;
+            font-size: .88rem;
+            margin-bottom: .35rem;
+        }
+
+        .talk-meta {
+            color: var(--muted);
+            font-size: .84rem;
+            line-height: 1.55;
+            margin-bottom: .8rem;
+        }
+
+        .talk-link {
+            font-size: .82rem;
+            font-weight: 750;
+            text-decoration: none;
+        }
+
+        .site-footer {
+            background: #081828;
+            color: #aebfd0;
+            padding: 2rem 4vw;
+        }
+
+        .site-footer-inner {
+            max-width: 1180px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1.25rem;
+        }
+
+        .site-footer strong {
+            font-family: "Manrope", sans-serif;
+            color: #fff;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .footer-links a {
+            color: #c9d6e2;
+            text-decoration: none;
+            font-size: .86rem;
+            font-weight: 600;
+        }
+
+        .footer-links a:hover {
+            color: #fff;
+        }
+
+        @media (min-width: 1200px) {
+            body {
+                padding-top: 74px !important;
+                padding-left: 0 !important;
+            }
+
+            #sideNav {
+                width: 100% !important;
+                height: 74px !important;
+                min-height: 74px !important;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: auto !important;
+                flex-direction: row !important;
+                padding: .58rem 3.2vw !important;
+            }
+
+            #sideNav .navbar-brand {
+                margin: 0 1.2rem 0 0 !important;
+                padding: 0 !important;
+            }
+
+            #sideNav .navbar-brand .d-lg-block {
+                display: none !important;
+            }
+
+            #sideNav .navbar-brand .d-lg-none {
+                display: block !important;
+                font-size: .98rem;
+                white-space: nowrap;
+            }
+
+            #sideNav .navbar-collapse {
+                display: flex !important;
+                align-items: center;
+                flex-basis: auto;
+            }
+
+            #sideNav .navbar-nav {
+                flex-direction: row !important;
+                gap: .05rem;
+                flex-wrap: nowrap;
+                justify-content: flex-end;
+                width: 100%;
+            }
+
+            #sideNav .nav-link {
+                padding: .42rem .48rem !important;
+                font-size: .73rem;
+                white-space: nowrap;
+            }
+        }
+
+        @media (max-width: 1199.98px) {
+            body {
+                padding-top: 64px !important;
+                padding-left: 0 !important;
+            }
+
+            #sideNav {
+                width: 100% !important;
+                height: auto !important;
+                min-height: 64px !important;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: auto !important;
+                padding: .65rem 1.15rem !important;
+            }
+
+            #sideNav .navbar-brand {
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+
+            #sideNav .navbar-brand .d-lg-block {
+                display: none !important;
+            }
+
+            #sideNav .navbar-brand .d-lg-none {
+                display: block !important;
+                font-size: .95rem;
+                white-space: nowrap;
+            }
+
+            #sideNav .navbar-collapse {
+                width: 100%;
+            }
+
+            #sideNav .navbar-nav {
+                padding: .55rem 0 .25rem;
+            }
+
+            #sideNav .nav-link {
+                padding: .48rem .4rem !important;
+                font-size: .82rem;
+            }
+
+            .edu-grid,
+            .pub-grid,
+            .award-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 991.98px) {
+            .resume-section {
+                padding: 4rem 1.25rem !important;
+            }
+
+            .hero-wrap {
+                border-radius: 16px;
+                padding: 1.8rem 1.3rem;
+            }
+
+            .edu-grid,
+            .pub-grid,
+            .current-grid,
+            .award-grid,
+            .skills-grid,
+            .teaching-grid,
+            .talks-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .metric-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .cv-context-strip {
+                grid-template-columns: 1fr;
+            }
+
+            .cv-viewer iframe {
+                min-height: 600px;
+                height: 76vh;
+            }
+
+            .experience-top {
+                flex-direction: column;
+                gap: .75rem;
+            }
+
+            .experience-date {
+                align-self: flex-start;
+            }
+
+            .site-footer-inner {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+        @media (max-width: 680px) {
+            .cv-viewer iframe {
+                display: none;
+            }
+
+            .cv-mobile-note {
+                display: block;
+                background: #fff;
+                color: #40556b;
+                border-radius: 9px;
+                padding: 1rem;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 520px) {
+            body {
+                padding-top: 60px !important;
+            }
+
+            #sideNav {
+                min-height: 60px !important;
+                padding: .55rem .85rem !important;
+            }
+
+            #sideNav .navbar-brand .d-lg-none {
+                font-size: .86rem;
+                max-width: 230px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .resume-section {
+                padding: 3.3rem .9rem !important;
+            }
+
+            .hero-wrap {
+                padding: 1.4rem 1rem;
+            }
+
+            .hero-name {
+                font-size: 2.65rem;
+            }
+
+            .hero-role {
+                font-size: 1rem;
+            }
+
+            .hero-copy {
+                font-size: .95rem;
+                line-height: 1.72;
+            }
+
+            .metric-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .metric-card {
+                min-height: auto;
+            }
+
+            .profile-mini img {
+                width: 62px;
+                height: 62px;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .cv-shell {
+                padding: 1rem;
+                border-radius: 14px;
+            }
+
+            .tag-chip {
+                font-size: .74rem;
+            }
+        }
+        @media (max-width: 991.98px) {
+            .featured-pub-layout {
+                grid-template-columns: 1fr;
+            }
+        }
+
+    </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Md Hasebul Hasan</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/hasebul.jpg" alt="Md Hasebul Hasan" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav" >
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#news">News</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publications">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cv">CV</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#work">Industry Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#teaching">Teaching Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#talks">Talks &amp; Presentations</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <div class="hero-wrap">
+                        <div class="row g-5 align-items-center position-relative" style="z-index:1;">
+                            <div class="col-xl-8">
+                                <div class="section-kicker mb-3">PhD Researcher &middot; Agentic AI &middot; NLP / LLMs &middot; ML Systems</div>
+                                <h1 class="hero-name mb-3">Md Hasebul Hasan</h1>
+                                <div class="hero-role mb-3">PhD Researcher at UT Arlington · Large Language Models · Human-AI Interaction · LLM Systems</div>
+                                <div class="text-muted mb-4">Arlington, TX · <a href="mailto:mdhasebul.hasan@uta.edu">mdhasebul.hasan@uta.edu</a></div>
+                                <p class="hero-copy mb-4">
+                                    I am a Computer Science PhD student and Graduate Research Assistant at
+                                    <a href="https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse">The University of Texas at Arlington</a>, advised by <b>Dr. Mohammad Atiqul Islam</b>.
+                                    I work at the intersection of <b>Agentic AI, NLP, large language models, trustworthy AI, and efficient LLM systems</b>. Before my PhD, I spent more than three years as a Machine Learning Engineer at <b>IQVIA</b>, building production ML and LLM systems. My work spans top-tier research, including a <b>first-author NeurIPS 2026 Evaluations &amp; Datasets poster</b>, an <b>ICML Spotlight</b>, and a <b>first-author EACL Findings paper</b>, as well as deployed AI systems whose insights contributed to a <b>15% increase in market sales</b>.
+                                </p>
+                                <div class="tag-row mb-4">
+                                    <span class="tag-chip">Agentic AI</span>
+                                    <span class="tag-chip">Natural Language Processing</span>
+                                    <span class="tag-chip">Large Language Models</span>
+                                    <span class="tag-chip">LLM Systems &amp; Architecture</span>
+                                    <span class="tag-chip">Trustworthy AI</span>
+                                    <span class="tag-chip">Human-AI Interaction</span>
+                                    <span class="tag-chip">Efficient Inference</span>
+                                </div>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a class="btn btn-primary px-4 py-2 js-scroll-trigger" href="#cv"><i class="fas fa-file-alt me-2"></i>View CV</a>
+                                    <a class="btn btn-outline-dark px-4 py-2" href="https://scholar.google.com/citations?user=f8HAI_MAAAAJ&hl=en" target="_blank" rel="noopener"><i class="ai ai-google-scholar me-2"></i>Scholar</a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4">
+                                <div class="internship-box mb-3">
+                                    <div class="profile-mini">
+                                        <img src="assets/img/hasebul.jpg" alt="Portrait of Md Hasebul Hasan" />
+                                        <div>
+                                            <div class="availability-pill">Open to 2027 research internships</div>
+                                            <div class="profile-mini-name">Md Hasebul Hasan</div>
+                                            <div class="profile-mini-role">Computer Science PhD Researcher · UT Arlington</div>
+                                        </div>
+                                    </div>
+                                    <div class="small text-uppercase fw-bold mb-2" style="letter-spacing:.11em;">Research focus</div>
+                                    <div class="fs-5 fw-bold mb-2">NLP · LLMs · LLM Systems / Architecture</div>
+                                    <div class="small">Targeting research and applied AI roles involving agentic systems, trustworthy LLMs, reasoning and evaluation, inference efficiency, model optimization, and human-centered AI.</div>
+                                </div>
+                                <div class="metric-grid">
+                                    <div class="metric-card"><div class="metric-value">NeurIPS 2026</div><div class="metric-label">Evaluations &amp; Datasets · Poster · First Author</div></div>
+                                    <div class="metric-card"><div class="metric-value">ICML 2025</div><div class="metric-label">Spotlight · Top 2.6%</div></div>
+                                    <div class="metric-card"><div class="metric-value">EACL 2026</div><div class="metric-label">Findings · First Author</div></div>
+                                    <div class="metric-card"><div class="metric-value">3+ Years</div><div class="metric-label">ML Engineering · IQVIA</div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-icons mt-4">
+                        <a class="social-icon" href="mailto:mdhasebul.hasan@uta.edu" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/hasebul-hasan-shawon-a618091aa/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/Hasebul" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://scholar.google.com/citations?user=f8HAI_MAAAAJ&hl=en" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+            <!-- News -->
+            <section class="resume-section" id="news">
+                <div class="resume-section-content">
+                    <div class="news-shell">
+                        <div class="position-relative" style="z-index:1;">
+                            <div class="news-kicker"><span class="pulse-dot"></span>Latest News · NeurIPS 2026</div>
+                            <h2 class="news-title">DeEscalWild accepted to the NeurIPS 2026 Evaluations and Datasets Track as a poster</h2>
+                            <p class="news-copy">
+                                Our paper, <b>“DeEscalWild: A Real-World Benchmark for Automated De-Escalation Training with SLMs,”</b> introduces a large-scale benchmark built from real-world police-civilian interactions. Starting from approximately 5,000 public videos, our human-AI curation pipeline produced 1,500 high-quality scenarios with 285,887 dialogue turns and approximately 4.7 million tokens.
+                            </p>
+                            <div class="news-stat-row">
+                                <span class="news-stat"><i class="fas fa-trophy"></i> NeurIPS 2026 Poster</span>
+                                <span class="news-stat"><i class="fas fa-user-pen"></i> First Author</span>
+                                <span class="news-stat"><i class="fas fa-database"></i> 1,500 Scenarios</span>
+                                <span class="news-stat"><i class="fas fa-comments"></i> 285,887 Dialogue Turns</span>
+                                <span class="news-stat"><i class="fas fa-file-lines"></i> ~4.7M Tokens</span>
+                            </div>
+                            <div class="news-actions">
+                                <a class="btn btn-news-primary px-4 py-2" href="https://arxiv.org/pdf/2604.13075" target="_blank" rel="noopener"><i class="fas fa-file-pdf me-2"></i>Read Paper</a>
+                                <a class="btn btn-news-secondary px-4 py-2" href="https://github.com/Hasebul/DeEscalWild-Benchmark-Framework" target="_blank" rel="noopener"><i class="fab fa-github me-2"></i>Code &amp; Benchmark</a>
+                                <a class="btn btn-news-secondary px-4 py-2 js-scroll-trigger" href="#publications"><i class="fas fa-arrow-down me-2"></i>See Publications</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+             <!-- Education-->
+             <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <div class="section-kicker mb-2">Academic background</div>
+                    <h2 class="section-title">Education</h2>
+                    <p class="section-lead mb-4">Computer science training spanning research, systems, machine learning, and large language models.</p>
+                    <div class="edu-grid">
+                        <article class="surface-card edu-card">
+                            <img class="school-logo" src="assets/img/uta_logo.png" alt="UT Arlington">
+                            <span class="date-pill mb-3">Aug 2025 - Present</span>
+                            <h3>University of Texas at Arlington</h3>
+                            <div class="fw-bold mb-2">PhD in Computer Science and Engineering</div>
+                            <p class="mb-2"><b>CGPA: 4.00 / 4.00</b></p>
+                            <p class="mb-0 text-muted">Full-time PhD Student & Graduate Research Assistant<br>Supervisor: <b>Dr. Mohammad Atiqul Islam</b></p>
+                        </article>
+                        <article class="surface-card edu-card">
+                            <img class="school-logo" src="assets/img/BUET_LOGO.png" alt="BUET">
+                            <span class="date-pill mb-3">Jul 2022 - Aug 2025</span>
+                            <h3>Bangladesh University of Engineering and Technology</h3>
+                            <div class="fw-bold mb-2">M.Sc. in Computer Science and Engineering</div>
+                            <p class="mb-2"><b>CGPA: 3.75 / 4.00</b></p>
+                            <p class="mb-0 text-muted">Thesis: <i>An Efficient Compositional Reasoning Approach for Solving Geospatial Queries Using LLMs</i></p>
+                        </article>
+                        <article class="surface-card edu-card">
+                            <img class="school-logo" src="assets/img/BUET_LOGO.png" alt="BUET">
+                            <span class="date-pill mb-3">Feb 2017 - May 2022</span>
+                            <h3>Bangladesh University of Engineering and Technology</h3>
+                            <div class="fw-bold mb-2">B.Sc. in Computer Science and Engineering</div>
+                            <p class="mb-2"><b>CGPA: 3.77 / 4.00</b> · 3.89 senior year · Rank 31/127</p>
+                            <p class="mb-0 text-muted">Thesis: <i>A Multi-Modal Deep Learning Based Approach for House Price Prediction</i></p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+            <!--Publications-->
+            <section class="resume-section" id="publications">
+                <div class="resume-section-content">
+                    <div class="section-kicker mb-2">Research output</div>
+                    <h2 class="section-title">Selected Publications</h2>
+                    <p class="section-lead mb-4">Peer-reviewed work in LLM reasoning/evaluation and trustworthy machine learning, together with ongoing research in efficient LLM inference.</p>
+                    <div class="pub-grid mb-4">
+                        <article class="surface-card pub-card featured-neurips">
+                            <div class="featured-pub-layout">
+                                <div>
+                                    <span class="neurips-badge"><i class="fas fa-star"></i> NeurIPS 2026 · Evaluations &amp; Datasets · Poster</span>
+                                    <h3 class="featured-pub-title">DeEscalWild: A Real-World Benchmark for Automated De-Escalation Training with SLMs</h3>
+                                    <p class="pub-meta mb-2"><b>Md Hasebul Hasan</b>, K. H. Charu, E. P. Sridhar, S. Deb, Mohammad Atiqul Islam</p>
+                                    <p class="pub-meta mb-2"><i>NeurIPS 2026 Evaluations and Datasets Track.</i> <b>First Author.</b></p>
+                                    <div class="small text-muted mb-3">Led benchmark construction, data curation and validation, model fine-tuning, and evaluation. The benchmark contains 1,500 real-world scenarios, 285,887 dialogue turns, and approximately 4.7M tokens.</div>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <a class="btn btn-primary btn-sm px-3" href="https://arxiv.org/pdf/2604.13075" target="_blank" rel="noopener"><i class="fas fa-file-pdf me-2"></i>Paper</a>
+                                        <a class="btn btn-outline-dark btn-sm px-3" href="https://github.com/Hasebul/DeEscalWild-Benchmark-Framework" target="_blank" rel="noopener"><i class="fab fa-github me-2"></i>Code</a>
+                                    </div>
+                                </div>
+                                <div class="featured-pub-stats">
+                                    <div class="featured-pub-stat"><strong>1,500</strong><span>curated scenarios</span></div>
+                                    <div class="featured-pub-stat"><strong>285,887</strong><span>dialogue turns</span></div>
+                                    <div class="featured-pub-stat"><strong>~4.7M</strong><span>tokens</span></div>
+                                    <div class="featured-pub-stat"><strong>~5,000</strong><span>source videos screened</span></div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="surface-card pub-card">
+                            <span class="badge bg-danger mb-3">ICML 2025 Spotlight · Top 2.6%</span>
+                            <h3>MapEval: A Map-Based Evaluation of Geo-Spatial Reasoning in Foundation Models</h3>
+                            <p class="pub-meta mb-2">Mahir Labib Dihan, Md Tanvir Hassan, Md Tanvir Parvez, <b>Md Hasebul Hasan</b>, Md Almash Alam, Muhammad Aamir Cheema, Mohammed Eunus Ali, Md Rizwan Parvez</p>
+                            <p class="pub-meta"><i>ICML 2025.</i> <a href="https://mapeval.github.io/">Project</a></p>
+                            <div class="small text-muted">Contributed to task taxonomy, dataset construction, annotation, human verification, and evaluation-gap analysis.</div>
+                        </article>
+                        <article class="surface-card pub-card">
+                            <span class="badge bg-primary mb-3">EACL 2026 Findings · First Author</span>
+                            <h3>MapAgent: A Hierarchical Agent for Geospatial Reasoning with Dynamic Map Tool Integration</h3>
+                            <p class="pub-meta mb-2"><b>Md Hasebul Hasan</b>, Mahir Labib Dihan, Tanzima Hashem, Mohammed Eunus Ali, Md Rizwan Parvez</p>
+                            <p class="pub-meta"><i>Findings of EACL 2026.</i> <a href="https://arxiv.org/pdf/2509.05933">Paper</a></p>
+                            <div class="small text-muted">Led framework design, implementation, and comprehensive evaluation.</div>
+                        </article>
+                        <article class="surface-card pub-card">
+                            <span class="badge bg-info text-dark mb-3">COMPSAC 2024 · First Author</span>
+                            <h3>GuardFL: Detection and Removal of Malicious Clients Through Majority Consensus</h3>
+                            <p class="pub-meta mb-2"><b>Md Hasebul Hasan</b>, M. S. Islam Khan, M. S. Haque, A. Y. Ahmed, M. A. Adnan</p>
+                            <p class="pub-meta"><i>IEEE COMPSAC 2024.</i> <a href="https://ieeexplore.ieee.org/abstract/document/10633548">Paper</a></p>
+                            <div class="small text-muted">Led research design, algorithm development, and evaluation.</div>
+                        </article>
+                    </div>
+                    <h3 class="mb-3" style="color:#10233f;">Current Research &amp; Submitted Work</h3>
+                    <div class="current-grid">
+                        <div class="surface-card current-card">
+                            <span class="badge bg-success mb-3">Ongoing PhD Research · Efficient LLM Inference</span>
+                            <b>KV-Cache Optimization for Efficient Large Language Model Inference</b>
+                            <div class="small text-muted mt-2">Current research on memory-efficient LLM inference, with emphasis on KV-cache compression, low-rank projection, token retention, K/V asymmetry, and memory-latency-throughput trade-offs. Experiments include Llama-2-7B on NVIDIA H100 GPUs.</div>
+                        </div>
+                        <div class="surface-card current-card">
+                            <span class="badge bg-secondary mb-3">Submitted Manuscript · Undergraduate Thesis</span>
+                            <b>A Multi-Modal Deep Learning Based Approach for House Price Prediction</b>
+                            <div class="small text-muted mt-2">Undergraduate thesis paper · Submitted to ACM MMSys 2027 · First author · <a href="https://www.arxiv.org/abs/2409.05335" target="_blank" rel="noopener">Preprint</a>.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+            <!-- CV -->
+            <section class="resume-section" id="cv">
+                <div class="resume-section-content">
+                    <div class="cv-shell">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-xl-8">
+                                <div class="section-kicker mb-2" style="color:#7bd3e0;">Curriculum Vitae</div>
+                                <h2 class="section-title mb-2">My CV</h2>
+                                <!-- <p class="mb-0">A concise two-page CV highlighting my PhD research, ICML Spotlight and EACL publications, Agentic AI / NLP / LLM work, and 3+ years of machine learning engineering experience at IQVIA.</p> -->
+                            </div>
+                            <div class="col-xl-4 text-xl-end">
+                                <div class="d-flex flex-wrap gap-2 justify-content-xl-end">
+                                    <a class="btn btn-soft" href="Md_Hasebul_Hasan_CV.pdf" target="_blank" rel="noopener"><i class="fas fa-external-link-alt me-2"></i>Open CV</a>
+                                    <a class="btn btn-soft" href="Md_Hasebul_Hasan_CV.pdf" download><i class="fas fa-download me-2"></i>Download CV</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cv-context-strip">
+                            <div class="cv-context-item"><b>Research</b><span>NeurIPS 2026 poster first author, ICML 2025 Spotlight (Top 2.6%), and EACL 2026 Findings first author.</span></div>
+                            <div class="cv-context-item"><b>Industry</b><span>3+ years at IQVIA building production ML and LLM systems.</span></div>
+                            <div class="cv-context-item"><b>Focus</b><span>Agentic AI, NLP/LLMs, trustworthy AI, and efficient LLM systems.</span></div>
+                        </div>
+
+                        <div class="cv-preview-heading">
+                            <span><strong>2-page CV preview</strong></span>
+                            <span class="d-none d-md-inline">Use Open CV for a full-window view.</span>
+                        </div>
+                        <div class="cv-viewer">
+                            <div class="cv-mobile-note">For the best mobile experience, use <b>Open CV</b> above to view the document in your phone's PDF viewer.</div>
+                            <iframe id="cvPreviewFrame" src="Md_Hasebul_Hasan_CV.pdf#view=FitH&amp;toolbar=1&amp;navpanes=0" title="Md Hasebul Hasan CV">
+                                Your browser cannot display the embedded PDF. <a href="Md_Hasebul_Hasan_CV.pdf" target="_blank" rel="noopener">Open the CV in a new tab</a>.
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+            <!--Reasearch Experience-->
+            <!-- <section class="resume-section" id="research">
+                <div class="resume-section-content">
+                    <h2 class="mb-5" style="color: #003f88;">Ongoing Research Project</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0"> Geo-spatial understanding of LLM </h3>
+                            <div class="subheading mb-3">Supervisor: <a href="https://scholar.google.com/citations?user=wf8iK0sAAAAJ&hl=en">Dr. Mohammed Eunus Ali</a></div>
+                            <div class="subheading mb-3">Co-supervisor:<a href="https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en">Dr. Rizwan Parvez</a> </div>
+                            Research Goals:
+                            <ul>
+                                <li> To investigate the geo-spatial understanding of Large Language Models (LLMs) and
+                                    develop methods for improving their ability to comprehend spatial information in natural language.</li>
+                                <li> To evaluate the effectiveness of combining multi-agent with LLMs in improving the performance
+                                    of geospatial queries.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0"> LLM Model with RAG for fetching exact information from structure and unstructure data </h3>
+                            Research Goals:
+                            <ul>
+                                <li> Develop and evaluate a Large Language Model (LLM) that utilizes Retrieval-
+                                    Augmented Generation (RAG) technology for extracting precise and relevant information from both
+                                    structured and unstructured data sources.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+            <hr class="m-0" />
+
+            <!-- Work Experience-->
+            <section class="resume-section" id="work">
+                <div class="resume-section-content">
+                    <div class="section-head">
+                        <div class="section-kicker mb-2">Production AI &amp; ML</div>
+                        <h2 class="section-title">Industry Experience</h2>
+                        <p class="section-lead">Building and deploying machine learning and LLM systems in production environments.</p>
+                    </div>
+                    <article class="surface-card experience-card">
+                        <div class="experience-top">
+                            <div class="experience-identity">
+                                <a href="https://www.iqvia.com/"><img class="experience-logo" src="assets/img/iqvia.jpeg" alt="IQVIA" /></a>
+                                <div>
+                                    <h3 class="mb-1" style="color:var(--ink);">IQVIA</h3>
+                                    <div class="fw-bold">Machine Learning Engineer · Dhaka, Bangladesh</div>
+                                    <div class="small text-muted">Full-time</div>
+                                </div>
+                            </div>
+                            <span class="date-pill experience-date">May 2022 - Jul 2025</span>
+                        </div>
+                        <ul>
+                            <li>Built and deployed ML prediction systems using <b>Python, PyTorch, TensorFlow, and Snowflake</b>; production work contributed to solutions associated with a <b>15% increase in sales</b>.</li>
+                            <li>Developed time-series data pipelines over enterprise data marts, including data engineering, preprocessing, model optimization, evaluation, and deployment.</li>
+                            <li>Architected <b>LangChain-based multi-agent workflows</b>, fine-tuned open-source LLMs for domain-specific applications, and conducted <b>AI security red-team assessments</b>.</li>
+                            <li>Implemented scalable MLOps with <b>AWS SageMaker/Bedrock, Kubernetes, Kubeflow, Docker, ECR/EC2, Git, and GitLab CI/CD</b>.</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+
+            <!-- Teaching Experience -->
+            <section class="resume-section" id="teaching">
+                <div class="resume-section-content">
+                    <div class="section-head">
+                        <div class="section-kicker mb-2">Teaching &amp; mentorship</div>
+                        <h2 class="section-title">Teaching Experience</h2>
+                        <p class="section-lead">Undergraduate instruction, project supervision, and student mentoring in computer science.</p>
+                    </div>
+
+                    <article class="surface-card experience-card mb-3">
+                        <div class="experience-top">
+                            <div class="experience-identity">
+                                <a href="https://cse.buet.ac.bd/"><img class="experience-logo" src="assets/img/BUET_LOGO.png" alt="BUET" /></a>
+                                <div>
+                                    <h3 class="mb-1" style="color:var(--ink);">Bangladesh University of Engineering and Technology (BUET)</h3>
+                                    <div class="fw-bold">Lecturer · Department of Computer Science and Engineering</div>
+                                </div>
+                            </div>
+                            <span class="date-pill experience-date">Nov 2022 - Apr 2024</span>
+                        </div>
+                        <p class="mb-0 text-muted">Taught undergraduate laboratory/session courses, supervised student projects, mentored students, and supported assessment and course delivery.</p>
+                    </article>
+
+                    <div class="teaching-grid">
+                        <article class="surface-card detail-card">
+                            <h3><i class="fas fa-chalkboard-teacher me-2 text-primary"></i>Selected Courses Instructed</h3>
+                            <ul>
+                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE462">CSE462: Algorithm Engineering Sessional</a></li>
+                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE408">CSE408: Software Development Sessional</a></li>
+                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE216">CSE216: Database Sessional</a></li>
+                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE208">CSE208: Data Structures and Algorithms II Sessional</a></li>
+                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE206">CSE206: Digital Logic Design Sessional</a></li>
+                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE110">CSE110: Computer Programming Sessional</a></li>
+                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE102">CSE102: Structured Programming Language Sessional</a></li>
+                            </ul>
+                        </article>
+                        <article class="surface-card detail-card">
+                            <h3><i class="fas fa-user-graduate me-2 text-primary"></i>Selected Projects Supervised</h3>
+                            <ul>
+                                <li><a href="https://bitsunplugged.onrender.com/landing">Bits Unplugged</a> - concept-first programming challenges.</li>
+                                <li><a href="https://github.com/jaid-monwr/BUET-CSE408-Agro">Agro</a> - farmer-to-wholesaler platform.</li>
+                                <li><a href="https://github.com/NawrizTurjo/AniMania-L2-T1">AniMania</a> - anime database and streaming platform.</li>
+                                <li><a href="https://github.com/zarif-itmam/CliqBus">CliqBus</a> - bus ticketing and management platform.</li>
+                                <li><a href="https://github.com/dipit099/FictionProfile-Database_Project">Fiction Profile</a> - media discovery and profile database.</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+        <hr class="m-0" />
+
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <div class="section-head">
+                        <div class="section-kicker mb-2">Recognition &amp; support</div>
+                        <h2 class="section-title">Awards &amp; Grants</h2>
+                        <p class="section-lead">Industry recognition, competitive research support, and academic achievement.</p>
+                    </div>
+
+                    <div class="award-note">
+                        <b>IQVIA Impact Program:</b> an internal employee recognition program honoring staff members and consultants for exceptional performance, process improvement, and technical innovation. Recognition levels include Platinum, Gold, Silver, and Bronze.
+                    </div>
+
+                    <div class="award-grid">
+                        <article class="surface-card award-card">
+                            <div class="award-icon"><i class="fas fa-trophy"></i></div>
+                            <div class="award-type">Industry Recognition</div>
+                            <h3>IQVIA Impact Program - Platinum Award</h3>
+                            <p>Recognition in the highest Impact Program category for exceptional contribution and impact.</p>
+                            <span class="date-pill">2024</span>
+                        </article>
+                        <article class="surface-card award-card">
+                            <div class="award-icon"><i class="fas fa-award"></i></div>
+                            <div class="award-type">Industry Recognition</div>
+                            <h3>IQVIA Impact Program - Silver Award</h3>
+                            <p>Recognition for strong contribution, performance, and impact within IQVIA's internal program.</p>
+                            <span class="date-pill">2025</span>
+                        </article>
+                        <article class="surface-card award-card">
+                            <div class="award-icon"><i class="fas fa-flask"></i></div>
+                            <div class="award-type">Research Grant</div>
+                            <h3>M.Sc. Research Grant - BUET</h3>
+                            <p>Competitive $1,500 grant from the Directorate of Advisory, Extension and Research Services for the MapAgent research project.</p>
+                            <span class="date-pill">2024</span>
+                        </article>
+                        <article class="surface-card award-card">
+                            <div class="award-icon"><i class="fas fa-medal"></i></div>
+                            <div class="award-type">Academic Achievement</div>
+                            <h3>University Merit List Scholarship</h3>
+                            <p>Awarded for academic performance across two semesters.</p>
+                            <span class="date-pill">2 Semesters</span>
+                        </article>
+                        <article class="surface-card award-card">
+                            <div class="award-icon"><i class="fas fa-star"></i></div>
+                            <div class="award-type">Academic Achievement</div>
+                            <h3>University Dean's List</h3>
+                            <p>Named to the Dean's List for three consecutive academic years, Levels 2 through 4.</p>
+                            <span class="date-pill">3 Years</span>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+
+             <!-- Skills-->
+             <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <div class="section-head">
+                        <div class="section-kicker mb-2">Technical toolkit</div>
+                        <h2 class="section-title">Technical Skills</h2>
+                        <p class="section-lead">Research and engineering tools used across LLM, machine learning, and production systems work.</p>
+                    </div>
+                    <div class="skills-grid">
+                        <article class="surface-card skill-card"><h3><i class="fas fa-brain me-2 text-primary"></i>Research</h3><p>Agentic AI, NLP, Large Language Models, LLM evaluation, trustworthy AI, RAG, reasoning, efficient inference.</p></article>
+                        <article class="surface-card skill-card"><h3><i class="fas fa-robot me-2 text-primary"></i>ML / AI</h3><p>PyTorch, TensorFlow, Hugging Face, LangChain, scikit-learn, production LLM and RAG systems.</p></article>
+                        <article class="surface-card skill-card"><h3><i class="fas fa-code me-2 text-primary"></i>Programming</h3><p>Python, C/C++, Java, JavaScript, SQL, LaTeX.</p></article>
+                        <article class="surface-card skill-card"><h3><i class="fas fa-cloud me-2 text-primary"></i>Cloud &amp; Systems</h3><p>AWS SageMaker, EC2, ECR, Bedrock, Docker, Kubernetes, Git.</p></article>
+                        <article class="surface-card skill-card"><h3><i class="fas fa-database me-2 text-primary"></i>Data</h3><p>PostgreSQL, MySQL, MongoDB, Snowflake.</p></article>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+
+            <!-- Selected Talks & Conference Presentations -->
+            <section class="resume-section" id="talks">
+                <div class="resume-section-content">
+                    <div class="section-head">
+                        <div class="section-kicker mb-2">Research communication</div>
+                        <h2 class="section-title">Selected Talks &amp; Conference Presentations</h2>
+                        <p class="section-lead">Selected peer-reviewed research presented at international conferences in natural language processing and trustworthy machine learning.</p>
+                    </div>
+                    <div class="talks-grid">
+                        <article class="surface-card talk-card">
+                            <div class="talk-card-top">
+                                <div class="talk-icon"><i class="fas fa-microphone"></i></div>
+                                <span class="date-pill">2026</span>
+                            </div>
+                            <div class="talk-venue">EACL 2026 · Conference Presentation</div>
+                            <h3>MapAgent: A Hierarchical Agent for Geospatial Reasoning with Dynamic Map Tool Integration</h3>
+                            <p class="talk-meta">Presented first-author research at the <b>Findings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2026)</b>.</p>
+                            <a class="talk-link" href="https://arxiv.org/pdf/2509.05933" target="_blank" rel="noopener">View paper <i class="fas fa-arrow-up-right-from-square ms-1"></i></a>
+                        </article>
+                        <article class="surface-card talk-card">
+                            <div class="talk-card-top">
+                                <div class="talk-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                                <span class="date-pill">2024</span>
+                            </div>
+                            <div class="talk-venue">IEEE COMPSAC 2024 · Conference Presentation</div>
+                            <h3>GuardFL: Detection and Removal of Malicious Clients Through Majority Consensus</h3>
+                            <p class="talk-meta">Presented first-author research at the <b>IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC 2024)</b>.</p>
+                            <a class="talk-link" href="https://ieeexplore.ieee.org/abstract/document/10633548" target="_blank" rel="noopener">View paper <i class="fas fa-arrow-up-right-from-square ms-1"></i></a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="site-footer">
+            <div class="site-footer-inner">
+                <div><strong>Md Hasebul Hasan</strong><div class="small">Computer Science PhD Researcher · UT Arlington</div></div>
+                <div class="footer-links">
+                    <a href="mailto:mdhasebul.hasan@uta.edu">Email</a>
+                    <a href="https://scholar.google.com/citations?user=f8HAI_MAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+                    <a href="https://github.com/Hasebul" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://www.linkedin.com/in/hasebul-hasan-shawon-a618091aa/" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
