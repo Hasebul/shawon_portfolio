@@ -6,7 +6,7 @@
 
     <meta
         name="description"
-        content="Computer Science PhD researcher at UT Arlington working on Agentic AI, NLP, Large Language Models, trustworthy AI, and efficient LLM systems. First-author NeurIPS 2026 Evaluations and Datasets poster, ICML 2025 Spotlight co-author, EACL 2026 Findings first author, and former IQVIA ML Engineer with 3+ years of industry experience. Seeking 2027 research and applied AI internships."
+        content="Computer Science PhD researcher at UT Arlington working on Agentic AI, NLP, Large Language Models, trustworthy AI, and efficient LLM systems. First-author paper accepted to the NeurIPS 2026 Evaluations and Datasets Track, ICML 2025 Spotlight co-author, EACL 2026 Findings first author, and former IQVIA ML Engineer with 3+ years of industry experience. Seeking 2027 research and applied AI internships."
     />
 
     <meta name="author" content="Md Hasebul Hasan" />
@@ -398,6 +398,10 @@
             font-size: 1.05rem;
             font-weight: 800;
             color: var(--accent-dark);
+        }
+
+        .metric-card-wide {
+            grid-column: 1 / -1;
         }
 
         .metric-label {
@@ -1009,6 +1013,11 @@
             overflow: hidden;
         }
 
+        .talk-card-upcoming {
+            grid-column: 1 / -1;
+            background: var(--soft-blue);
+        }
+
         .talk-card::before {
             content: "";
             position: absolute;
@@ -1382,7 +1391,7 @@
                                 <p class="hero-copy mb-4">
                                     I am a Computer Science PhD student and Graduate Research Assistant at
                                     <a href="https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse">The University of Texas at Arlington</a>, advised by <b>Dr. Mohammad Atiqul Islam</b>.
-                                    I work at the intersection of <b>Agentic AI, NLP, large language models, trustworthy AI, and efficient LLM systems</b>. Before my PhD, I spent more than three years as a Machine Learning Engineer at <b>IQVIA</b>, building production ML and LLM systems. My work spans top-tier research, including a <b>first-author NeurIPS 2026 Evaluations &amp; Datasets poster</b>, an <b>ICML Spotlight</b>, and a <b>first-author EACL Findings paper</b>, as well as deployed AI systems whose insights contributed to a <b>15% increase in market sales</b>.
+                                    I work at the intersection of <b>Agentic AI, NLP, large language models, trustworthy AI, and efficient LLM systems</b>. Before my PhD, I spent more than three years as a Machine Learning Engineer at <b>IQVIA</b>, building production ML and LLM systems. My work spans top-tier research, including a <b>first-author paper accepted to NeurIPS 2026 Evaluations &amp; Datasets</b>, an <b>ICML Spotlight</b>, and a <b>first-author EACL Findings paper</b>, as well as deployed AI systems whose insights contributed to a <b>15% increase in market sales</b>.
                                 </p>
                                 <div class="tag-row mb-4">
                                     <span class="tag-chip">Agentic AI</span>
@@ -1413,7 +1422,8 @@
                                     <div class="small">Targeting research and applied AI roles involving agentic systems, trustworthy LLMs, reasoning and evaluation, inference efficiency, model optimization, and human-centered AI.</div>
                                 </div>
                                 <div class="metric-grid">
-                                    <div class="metric-card"><div class="metric-value">NeurIPS 2026</div><div class="metric-label">Evaluations &amp; Datasets · Poster · First Author</div></div>
+                                    <div class="metric-card metric-card-wide"><div class="metric-value">ICPC 2026</div><div class="metric-label">South Central · Division 2 Champion · 9 of 13 Problems Solved</div></div>
+                                    <div class="metric-card"><div class="metric-value">NeurIPS 2026</div><div class="metric-label">Evaluations &amp; Datasets · Accepted · First Author</div></div>
                                     <div class="metric-card"><div class="metric-value">ICML 2025</div><div class="metric-label">Spotlight · Top 2.6%</div></div>
                                     <div class="metric-card"><div class="metric-value">EACL 2026</div><div class="metric-label">Findings · First Author</div></div>
                                     <div class="metric-card"><div class="metric-value">3+ Years</div><div class="metric-label">ML Engineering · IQVIA</div></div>
@@ -1436,24 +1446,46 @@
                 <div class="resume-section-content">
                     <div class="news-shell">
                         <div class="position-relative" style="z-index:1;">
-                            <div class="news-kicker"><span class="pulse-dot"></span>Latest News · NeurIPS 2026</div>
-                            <h2 class="news-title">DeEscalWild accepted to the NeurIPS 2026 Evaluations and Datasets Track as a poster</h2>
+                            <div class="news-kicker"><span class="pulse-dot"></span>Latest News · November 7, 2026</div>
+                            <h2 class="news-title">ICPC South Central Regional: Division 2 Champions</h2>
                             <p class="news-copy">
-                                Our paper, <b>“DeEscalWild: A Real-World Benchmark for Automated De-Escalation Training with SLMs,”</b> introduces a large-scale benchmark built from real-world police-civilian interactions. Starting from approximately 5,000 public videos, our human-AI curation pipeline produced 1,500 high-quality scenarios with 285,887 dialogue turns and approximately 4.7 million tokens.
+                                Our team, <b>Code Blazers</b> from <b>The University of Texas at Arlington</b>, won the
+                                <b>Division 2 championship</b> at the ICPC South Central Regional on November 7, 2026,
+                                solving <b>9 of 13 problems</b>.
                             </p>
+                            <p class="news-copy"><b>Team: Md Hasebul Hasan</b>, Nguyen Le, and Nghia Nguyen Phuoc Huu. <b>Coach:</b> Donna French.</p>
                             <div class="news-stat-row">
-                                <span class="news-stat"><i class="fas fa-trophy"></i> NeurIPS 2026 Poster</span>
-                                <span class="news-stat"><i class="fas fa-user-pen"></i> First Author</span>
-                                <span class="news-stat"><i class="fas fa-database"></i> 1,500 Scenarios</span>
-                                <span class="news-stat"><i class="fas fa-comments"></i> 285,887 Dialogue Turns</span>
-                                <span class="news-stat"><i class="fas fa-file-lines"></i> ~4.7M Tokens</span>
+                                <span class="news-stat"><i class="fas fa-trophy" aria-hidden="true"></i> Division 2 Champions</span>
+                                <span class="news-stat"><i class="fas fa-code" aria-hidden="true"></i> 9 of 13 Problems Solved</span>
+                                <span class="news-stat"><i class="fas fa-users" aria-hidden="true"></i> Code Blazers · UT Arlington</span>
                             </div>
                             <div class="news-actions">
-                                <a class="btn btn-news-primary px-4 py-2" href="https://arxiv.org/pdf/2604.13075" target="_blank" rel="noopener"><i class="fas fa-file-pdf me-2"></i>Read Paper</a>
-                                <a class="btn btn-news-secondary px-4 py-2" href="https://github.com/Hasebul/DeEscalWild-Benchmark-Framework" target="_blank" rel="noopener"><i class="fab fa-github me-2"></i>Code &amp; Benchmark</a>
-                                <a class="btn btn-news-secondary px-4 py-2 js-scroll-trigger" href="#publications"><i class="fas fa-arrow-down me-2"></i>See Publications</a>
+                                <a class="btn btn-news-primary px-4 py-2" href="https://sc.na.icpc.global/" target="_blank" rel="noopener"><i class="fas fa-trophy me-2" aria-hidden="true"></i>Official Results</a>
+                                <a class="btn btn-news-secondary px-4 py-2 js-scroll-trigger" href="#awards"><i class="fas fa-arrow-down me-2" aria-hidden="true"></i>Awards &amp; Grants</a>
                             </div>
                         </div>
+                    </div>
+                    <div class="talks-grid mt-3">
+                        <article class="surface-card talk-card">
+                            <div class="talk-card-top">
+                                <div class="talk-icon"><i class="fas fa-plane" aria-hidden="true"></i></div>
+                                <time class="date-pill" datetime="2026-12-09">Upcoming · Dec 9, 2026</time>
+                            </div>
+                            <div class="talk-venue">NeurIPS 2026 · Atlanta, Georgia</div>
+                            <h3>Presenting DeEscalWild in Atlanta</h3>
+                            <p class="talk-meta">I will be in <b>Atlanta on December 9, 2026</b> to present my first-author paper, <b>DeEscalWild</b>, at NeurIPS 2026. The work was accepted to the Evaluations and Datasets Track.</p>
+                            <a class="talk-link js-scroll-trigger" href="#neurips-atlanta-2026">Presentation details <i class="fas fa-arrow-down ms-1" aria-hidden="true"></i></a>
+                        </article>
+                        <article class="surface-card talk-card">
+                            <div class="talk-card-top">
+                                <div class="talk-icon"><i class="fas fa-file-lines" aria-hidden="true"></i></div>
+                                <span class="date-pill">2026 · Accepted</span>
+                            </div>
+                            <div class="talk-venue">NeurIPS 2026 · Evaluations &amp; Datasets</div>
+                            <h3>DeEscalWild accepted to NeurIPS 2026</h3>
+                            <p class="talk-meta">Our benchmark of real-world police-civilian interactions was curated from approximately 5,000 public videos into <b>1,500 scenarios</b>, <b>285,887 dialogue turns</b>, and approximately <b>4.7 million tokens</b>.</p>
+                            <a class="talk-link" href="https://arxiv.org/pdf/2604.13075" target="_blank" rel="noopener">Read paper <i class="fas fa-arrow-up-right-from-square ms-1" aria-hidden="true"></i></a>
+                        </article>
                     </div>
                 </div>
             </section>
@@ -1472,6 +1504,7 @@
                             <h3>University of Texas at Arlington</h3>
                             <div class="fw-bold mb-2">PhD in Computer Science and Engineering</div>
                             <p class="mb-2"><b>CGPA: 4.00 / 4.00</b></p>
+                            <p class="mb-2 text-muted">Expected graduation: <b>June 2028</b></p>
                             <p class="mb-0 text-muted">Full-time PhD Student & Graduate Research Assistant<br>Supervisor: <b>Dr. Mohammad Atiqul Islam</b></p>
                         </article>
                         <article class="surface-card edu-card">
@@ -1505,7 +1538,7 @@
                         <article class="surface-card pub-card featured-neurips">
                             <div class="featured-pub-layout">
                                 <div>
-                                    <span class="neurips-badge"><i class="fas fa-star"></i> NeurIPS 2026 · Evaluations &amp; Datasets · Poster</span>
+                                    <span class="neurips-badge"><i class="fas fa-star"></i> NeurIPS 2026 · Evaluations &amp; Datasets · Accepted</span>
                                     <h3 class="featured-pub-title">DeEscalWild: A Real-World Benchmark for Automated De-Escalation Training with SLMs</h3>
                                     <p class="pub-meta mb-2"><b>Md Hasebul Hasan</b>, K. H. Charu, E. P. Sridhar, S. Deb, Mohammad Atiqul Islam</p>
                                     <p class="pub-meta mb-2"><i>NeurIPS 2026 Evaluations and Datasets Track.</i> <b>First Author.</b></p>
@@ -1574,24 +1607,25 @@
                             </div>
                             <div class="col-xl-4 text-xl-end">
                                 <div class="d-flex flex-wrap gap-2 justify-content-xl-end">
-                                    <a class="btn btn-soft" href="Md_Hasebul_Hasan_CV.pdf" target="_blank" rel="noopener"><i class="fas fa-external-link-alt me-2"></i>Open CV</a>
-                                    <a class="btn btn-soft" href="Md_Hasebul_Hasan_CV.pdf" download><i class="fas fa-download me-2"></i>Download CV</a>
+                                    <a class="btn btn-soft" href="Md_Hasebul_Hasan_CV.pdf" target="_blank" rel="noopener"><i class="fas fa-external-link-alt me-2"></i>Open Academic CV</a>
+                                    <a class="btn btn-soft" href="Md_Hasebul_Hasan_CV.pdf" download><i class="fas fa-download me-2"></i>Download Academic CV</a>
+                                    <a class="btn btn-soft" href="Md_Hasebul_Hasan_Industry_CV.pdf" download><i class="fas fa-download me-2"></i>Download Industry CV</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="cv-context-strip">
-                            <div class="cv-context-item"><b>Research</b><span>NeurIPS 2026 poster first author, ICML 2025 Spotlight (Top 2.6%), and EACL 2026 Findings first author.</span></div>
+                            <div class="cv-context-item"><b>Research</b><span>NeurIPS 2026 accepted paper first author, ICML 2025 Spotlight (Top 2.6%), and EACL 2026 Findings first author.</span></div>
                             <div class="cv-context-item"><b>Industry</b><span>3+ years at IQVIA building production ML and LLM systems.</span></div>
                             <div class="cv-context-item"><b>Focus</b><span>Agentic AI, NLP/LLMs, trustworthy AI, and efficient LLM systems.</span></div>
                         </div>
 
                         <div class="cv-preview-heading">
-                            <span><strong>2-page CV preview</strong></span>
-                            <span class="d-none d-md-inline">Use Open CV for a full-window view.</span>
+                            <span><strong>2-page academic CV preview</strong></span>
+                            <span class="d-none d-md-inline">Use Open Academic CV for a full-window view.</span>
                         </div>
                         <div class="cv-viewer">
-                            <div class="cv-mobile-note">For the best mobile experience, use <b>Open CV</b> above to view the document in your phone's PDF viewer.</div>
+                            <div class="cv-mobile-note">For the best mobile experience, use <b>Open Academic CV</b> above to view the document in your phone's PDF viewer.</div>
                             <iframe id="cvPreviewFrame" src="Md_Hasebul_Hasan_CV.pdf#view=FitH&amp;toolbar=1&amp;navpanes=0" title="Md Hasebul Hasan CV">
                                 Your browser cannot display the embedded PDF. <a href="Md_Hasebul_Hasan_CV.pdf" target="_blank" rel="noopener">Open the CV in a new tab</a>.
                             </iframe>
@@ -1694,13 +1728,13 @@
                         <article class="surface-card detail-card">
                             <h3><i class="fas fa-chalkboard-teacher me-2 text-primary"></i>Selected Courses Instructed</h3>
                             <ul>
-                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE462">CSE462: Algorithm Engineering Sessional</a></li>
-                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE408">CSE408: Software Development Sessional</a></li>
-                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE216">CSE216: Database Sessional</a></li>
-                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE208">CSE208: Data Structures and Algorithms II Sessional</a></li>
-                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE206">CSE206: Digital Logic Design Sessional</a></li>
-                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE110">CSE110: Computer Programming Sessional</a></li>
-                                <li><a href="https://cse.buet.ac.bd/studies/course_detail/CSE102">CSE102: Structured Programming Language Sessional</a></li>
+                                <li>CSE462: Algorithm Engineering Sessional</li>
+                                <li>CSE408: Software Development Sessional</li>
+                                <li>CSE216: Database Sessional</li>
+                                <li>CSE208: Data Structures and Algorithms II Sessional</li>
+                                <li>CSE206: Digital Logic Design Sessional</li>
+                                <li>CSE110: Computer Programming Sessional</li>
+                                <li>CSE102: Structured Programming Language Sessional</li>
                             </ul>
                         </article>
                         <article class="surface-card detail-card">
@@ -1725,14 +1759,33 @@
                     <div class="section-head">
                         <div class="section-kicker mb-2">Recognition &amp; support</div>
                         <h2 class="section-title">Awards &amp; Grants</h2>
-                        <p class="section-lead">Industry recognition, competitive research support, and academic achievement.</p>
+                        <p class="section-lead">Programming competition achievements, conference funding, industry recognition, and research support.</p>
                     </div>
 
-                    <div class="award-note">
-                        <b>IQVIA Impact Program:</b> an internal employee recognition program honoring staff members and consultants for exceptional performance, process improvement, and technical innovation. Recognition levels include Platinum, Gold, Silver, and Bronze.
-                    </div>
 
                     <div class="award-grid">
+                        <article class="surface-card award-card">
+                            <div class="award-icon"><i class="fas fa-trophy" aria-hidden="true"></i></div>
+                            <div class="award-type">Programming Competition</div>
+                            <h3>ICPC South Central Regional - Division 2 Champion</h3>
+                            <p>Won with <b>Code Blazers</b>, representing The University of Texas at Arlington. Our team solved <b>9 of 13 problems</b>.</p>
+                            <p><a href="https://sc.na.icpc.global/" target="_blank" rel="noopener">Official results</a></p>
+                            <time class="date-pill" datetime="2026-11-07">November 7, 2026</time>
+                        </article>
+                        <article class="surface-card award-card">
+                            <div class="award-icon"><i class="fas fa-award" aria-hidden="true"></i></div>
+                            <div class="award-type">Conference Financial Assistance</div>
+                            <h3>NeurIPS 2026 Financial Assistance Award</h3>
+                            <p>Award covering <b>accommodation</b> and registration for both the <b>conference and workshops</b> at NeurIPS 2026 in Atlanta, GA.</p>
+                            <span class="date-pill">2026</span>
+                        </article>
+                        <article class="surface-card award-card">
+                            <div class="award-icon"><i class="fas fa-plane" aria-hidden="true"></i></div>
+                            <div class="award-type">Travel Grant</div>
+                            <h3>UT Arlington Travel Grant - US$500</h3>
+                            <p>Received <b>US$500 from The University of Texas at Arlington</b> to present <b>DeEscalWild</b> at NeurIPS 2026 in Atlanta, GA.</p>
+                            <span class="date-pill">2026</span>
+                        </article>
                         <article class="surface-card award-card">
                             <div class="award-icon"><i class="fas fa-trophy"></i></div>
                             <div class="award-type">Industry Recognition</div>
@@ -1769,6 +1822,9 @@
                             <span class="date-pill">3 Years</span>
                         </article>
                     </div>
+                    <div class="award-note">
+                        <b>IQVIA Impact Program:</b> an internal employee recognition program honoring staff members and consultants for exceptional performance, process improvement, and technical innovation. Recognition levels include Platinum, Gold, Silver, and Bronze.
+                    </div>
                 </div>
             </section>
 
@@ -1800,9 +1856,20 @@
                     <div class="section-head">
                         <div class="section-kicker mb-2">Research communication</div>
                         <h2 class="section-title">Selected Talks &amp; Conference Presentations</h2>
-                        <p class="section-lead">Selected peer-reviewed research presented at international conferences in natural language processing and trustworthy machine learning.</p>
+                        <p class="section-lead">Upcoming and past presentations of peer-reviewed research in natural language processing and trustworthy machine learning.</p>
                     </div>
                     <div class="talks-grid">
+                        <article class="surface-card talk-card talk-card-upcoming" id="neurips-atlanta-2026">
+                            <div class="talk-card-top">
+                                <div class="talk-icon"><i class="fas fa-microphone" aria-hidden="true"></i></div>
+                                <time class="date-pill" datetime="2026-12-09">Upcoming · December 9, 2026</time>
+                            </div>
+                            <div class="talk-venue">NeurIPS 2026 · Evaluations and Datasets Track · Atlanta, Georgia</div>
+                            <h3>DeEscalWild: A Real-World Benchmark for Automated De-Escalation Training with SLMs</h3>
+                            <p class="talk-meta">I will be in <b>Atlanta, Georgia, on December 9, 2026</b> to present my first-author paper, <b>DeEscalWild</b>, accepted to the <b>NeurIPS 2026 Evaluations and Datasets Track</b>.</p>
+                            <p class="talk-meta">Supported by a <b>US$500 travel grant from UT Arlington</b> and a <b>NeurIPS 2026 Financial Assistance Award</b> covering accommodation and registration for both the conference and workshops.</p>
+                            <a class="talk-link" href="https://arxiv.org/pdf/2604.13075" target="_blank" rel="noopener">View paper <i class="fas fa-arrow-up-right-from-square ms-1" aria-hidden="true"></i></a>
+                        </article>
                         <article class="surface-card talk-card">
                             <div class="talk-card-top">
                                 <div class="talk-icon"><i class="fas fa-microphone"></i></div>

@@ -1,3 +1,43 @@
+# Md Hasebul Hasan - Portfolio
+
+Updated November 9, 2026.
+
+The customized portfolio is maintained in the root `index.html`, with assets in
+`css/`, `js/`, and `assets/`. The files under `src/` are retained starter sources;
+they are not the current portfolio and should not replace the root page.
+
+## Recent updates
+
+- Featured the ICPC South Central Regional Division 2 championship (Code Blazers,
+  UT Arlington, November 7, 2026), including 9 of 13 problems solved, the team, and coach.
+- Added an ICPC 2026 Division 2 Champion card to the front-page highlights alongside
+  NeurIPS, ICML, EACL, and IQVIA experience.
+- Added the NeurIPS financial assistance award and the US$500 UT Arlington travel grant.
+- Added an upcoming Atlanta visit/presentation for DeEscalWild on December 9, 2026,
+  in both News and Talks & Conference Presentations.
+- Used accepted-paper wording for DeEscalWild.
+- Added expected Ph.D. graduation in June 2028.
+- Refreshed the two-page academic CV and added the two-page industry CV download.
+
+## Build and preview
+
+`npm run build` (or `node scripts/build-static.js`) copies the current static site
+and both CV PDFs into `dist/`, using only Node's built-in modules.
+
+Preview the finished site with:
+
+```sh
+python3 -m http.server 8765 --directory dist --bind 127.0.0.1
+```
+
+Open `http://127.0.0.1:8765/`. For an existing GitHub Pages site serving the repository
+root, update the root HTML, CSS/JS, assets, and PDF files. Hosts using a build output
+should publish `dist/`. This archive contains source changes and is not a live deployment.
+
+The original project README is retained below for reference.
+
+---
+
 # Hi, I'm Md Hasebul Hasan 👋
 
 **Ph.D. Researcher in Computer Science | NLP & LLMs | Agentic AI | LLM Systems | Machine Learning**
